@@ -1,6 +1,6 @@
 ---
 title: "CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on
-  Versal ACAP Architecture ( 📣 New Paper & New Project  📣 ! )"
+  Versal ACAP Architecture (🔥📣New Paper & Project🔥📣! )"
 publication_types:
   - "1"
 authors:
