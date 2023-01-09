@@ -27,6 +27,8 @@ featured: true
 links:
 - name: Code 
   url: https://github.com/arc-research-lab/CHARM 
+tags:
+  - FPGA
 image:
   filename: featured
   focal_point: Smart
