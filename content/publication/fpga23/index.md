@@ -18,7 +18,10 @@ authors:
   - Jason Cong
   - admin
 draft: false
-featured: false
+featured: true
+links:
+- name: Code 
+  url: https://github.com/arc-research-lab/CHARM 
 image:
   filename: featured
   focal_point: Smart
