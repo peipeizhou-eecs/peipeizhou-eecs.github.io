@@ -6,7 +6,7 @@ authors:
   - Jinming Zhuang
   - Zhuoping Yang
   - admin
-publication: To appear in Proceedings of the 60th ACM/IEEE Design Automation Conference, San Francisco, California, USA, (DAC ’23), July 9–13, 2023, San Francisco, CA, USA. ACM, New York, NY, USA, 6 pages.  
+publication: To appear in Proceedings of the 60th ACM/IEEE Design Automation Conference, San Francisco, California, USA, (DAC ’23), July 9–13, 2023, San Francisco, CA, USA. Full Paper Accepted (acceptance ratio: 23%)  
 
 
 draft: false
