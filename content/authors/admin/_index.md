@@ -19,7 +19,7 @@ social:
     link: https://twitter.com/PeipeiZhou_EECS
   - icon: github
     icon_pack: fab
-    link: https://github.com/AriesLL
+    link: https://github.com/arc-research-lab 
 organizations:
   - name: University of Pittsburgh
     url: https://www.pitt.edu/
