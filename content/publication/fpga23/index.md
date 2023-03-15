@@ -24,8 +24,6 @@ abstract: Dense matrix multiply (MM) serves as one of the most heavily used kern
 draft: false
 featured: true
 links:
-- name: PDF
-  url: https://dl.acm.org/doi/10.1145/3543622.3573210
 - name: Code 
   url: https://github.com/arc-research-lab/CHARM 
 tags:
