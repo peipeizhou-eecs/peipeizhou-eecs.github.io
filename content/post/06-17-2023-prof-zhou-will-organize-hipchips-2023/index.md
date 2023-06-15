@@ -11,11 +11,11 @@ image:
 What? 🎉\
 The 3rd International HiPChips Workshop, along with ISCA-2023\
 \
-Online Attend? 🌐 Virtual (Yes, It is Free to Everyone) !!\
+Online Attend? 🌐 **Virtual (Yes, It is Free to Everyone)** !!\
 Zoom Link: [](https://lnkd.in/gjfuATqH)https://us06web.zoom.us/j/83130309538\
 \
 When? ⏰\
-Day-Date: Saturday, June 17th, 2023, 9 AM - 5 PM EST, Whole-Day Event\
+Day-Date: Saturday, **June 17th, 2023, 9AM - 5PM EST**, Whole-Day Event\
 \
 Where? 📍\
 Location: Orlando, Florida, Marriott World Center Orlando\
