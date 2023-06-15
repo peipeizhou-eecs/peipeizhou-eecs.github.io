@@ -1,4 +1,5 @@
-title: 04/21 Prof. Zhou Invited Talks
+---
+title: 04/21/2023 Prof. Zhou Invited Talks (Watch Recorded Video on YouTube!)
 date: 2023-06-15T05:22:09.811Z
 draft: false
 featured: false
