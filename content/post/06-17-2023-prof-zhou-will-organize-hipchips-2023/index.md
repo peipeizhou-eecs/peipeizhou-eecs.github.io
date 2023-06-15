@@ -1,5 +1,5 @@
 ---
-title: 06/17/2023 Prof. Zhou Will Organize HipChips2023 Co-located at ISCA2023
+title: 06/17/2023 Prof. Zhou Will Organize HipChips2023 Co-located at ISCA2023 with DJ and Weifeng
 date: 2023-06-15T05:54:00.269Z
 draft: false
 featured: false
