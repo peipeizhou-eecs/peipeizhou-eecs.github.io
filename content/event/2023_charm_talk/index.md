@@ -1,5 +1,5 @@
 ---
-title:  CHARM: Composing Heterogeneous Accelerators for Matrix Multiply on Versal ACAP Architecture
+title:  CHARM Composing Heterogeneous Accelerators for Matrix Multiply on Versal ACAP Architecture
 location: " CMU, Pittsburgh, PA "
 date: 2023-04-07T12:13:54.557Z
 date_end: 2023-04-07T16:00:00.000Z
