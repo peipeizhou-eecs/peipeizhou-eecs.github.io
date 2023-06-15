@@ -9,7 +9,7 @@ image:
   preview_only: false
 ---
 What? 🎉\
-The 3rd International HiPChips Workshop, along with ISCA-2023\
+The [3rd International HiPChips Workshop](https://hipchips.github.io/isca2023/#schedule), along with ISCA-2023\
 \
 Online Attend? 🌐 **Virtual (Yes, It is Free to Everyone)** !!\
 Zoom Link: [](https://lnkd.in/gjfuATqH)https://us06web.zoom.us/j/83130309538\
