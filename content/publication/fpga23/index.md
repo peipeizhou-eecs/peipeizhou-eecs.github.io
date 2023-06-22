@@ -28,6 +28,10 @@ links:
   url: https://dl.acm.org/doi/pdf/10.1145/3543622.3573210 
 - name: Code 
   url: https://github.com/arc-research-lab/CHARM 
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://youtu.be/Hl__s5WqSZA  
 tags:
   - FPGA
 image:
