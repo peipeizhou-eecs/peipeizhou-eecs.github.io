@@ -28,6 +28,8 @@ links:
   url: https://dl.acm.org/doi/pdf/10.1145/3543622.3573210 
 - name: Code 
   url: https://github.com/arc-research-lab/CHARM 
+- name: Slides
+  url: "FPGA2023_CHARM.pdf"
 - icon: youtube
   icon_pack: fab
   name: Video
