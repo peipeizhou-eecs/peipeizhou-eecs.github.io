@@ -17,6 +17,8 @@ authors:
   - admin
 
 links:
+- name: Slides
+  url: https://peipeizhou-eecs.github.io/publication/fpga23/FPGA2023_CHARM.pdf
 - name: YouTube 
   #url: https://vast.cs.ucla.edu/~peipei/slides/CDSC_Cong_NSF_poster.pdf
   url: https://youtu.be/Hl__s5WqSZA
