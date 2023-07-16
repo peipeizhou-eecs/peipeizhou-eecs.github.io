@@ -16,6 +16,12 @@ links:
   url: https://arxiv.org/abs/2305.18698
 - name: Code
   url: https://github.com/arc-research-lab/CHARM 
+- name: Slides
+  url: https://docs.google.com/presentation/d/1aMdcKQ_bZfjpwJ1p_i_GOk2vb_8n2TCO/edit?usp=sharing&ouid=100145145140914150451&rtpof=true&sd=true
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://drive.google.com/file/d/12NWq4ewDYTycjJ8ZdboVUyb_YAR8SztV/view?usp=sharing
 tags:
   - DAC 
 image:
