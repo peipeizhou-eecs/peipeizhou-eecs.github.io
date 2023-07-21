@@ -15,4 +15,4 @@ superuser: false
 user_groups:
   - Grad Students
 ---
-Zhuoping Yang joined Prof. Peipei Zhou's lab in 2022 Fall. Zhuoping's research interests include academic Heterogeneous Architecture, Software and Hardware Co-design, and Programming Abstraction for Applications. Welcome to check his personal research website: https://zhuopingyang.com/#.
+Zhuoping Yang joined Prof. Peipei Zhou's lab in 2022 Fall. Zhuoping's research interests include academic Heterogeneous Architecture, Software and Hardware Co-design, and Programming Abstraction for Applications. Welcome to check his personal research website: https://zhuopingyang.com/.
