@@ -5,7 +5,7 @@ date: 2023-07-21T06:20:14.522Z
 draft: false
 featured: false
 image:
-  filename: jinming_dac1.jpg
+  filename: jinming_dac1
   focal_point: Smart
   preview_only: false
 ---
