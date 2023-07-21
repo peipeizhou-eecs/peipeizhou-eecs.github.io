@@ -11,4 +11,4 @@ image:
 ---
 Jinming Zhuang and Prof. Peipei Zhou participated in DAC'60 at San Francisco from 07/09/2023-07/14/2023.
 
-Jinming has presented research paper "[High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives](https://peipeizhou-eecs.github.io/publication/2023dac/)" and 1 university demo on real-time vision transformer inference on AMD Versal ACAP.
+Jinming has presented research paper "[High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives](https://peipeizhou-eecs.github.io/publication/2023dac/)" and 1 demo at the ACM SIGDA/IEEE CEDA University Demonstration about real-time vision transformer inference on AMD Versal ACAP.
