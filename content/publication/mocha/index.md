@@ -29,6 +29,8 @@ abstract: FPGAs have been widely deployed in public clouds, e.g., Amazon Web
 draft: false
 featured: true
 links:
+- name: PDF
+  url: https://dl.acm.org/doi/pdf/10.1145/3431920.3439304
 - name: Slides
   url: "FPGA_2021Mocha.pptx"
 - icon: youtube
