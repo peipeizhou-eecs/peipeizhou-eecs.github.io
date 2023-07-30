@@ -29,6 +29,9 @@ draft: false
 featured: true
 tags:
   - DAC 
+links:
+- name: PDF
+  url: https://dl.acm.org/doi/pdf/10.1145/3489517.3530509
 image:
   filename: featured
   focal_point: Smart
