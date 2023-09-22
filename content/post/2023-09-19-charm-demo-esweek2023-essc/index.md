@@ -1,8 +1,6 @@
 ---
 title: 09/19/2023 CHARM Demo at ESWEEK2023 ESSC!
 date: 2023-09-21T06:20:14.522Z
-image:
-  focal_point: 'top'
 draft: false
 ---
 
