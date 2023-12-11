@@ -4,7 +4,8 @@ location: " Open Compute Project (OCP) Summit 2023, San Jose, CA "
 abstract: >-
   Which platform beats 7nm GPU A100 in energy efficiency? AMD Versal ACAP
   (FPGA+AI Chip)
-  How to program AMD Versal ACAP, i.e., FPGA + AI Chip within the same chip die for deep learning applications in 10 lines of code? Use CHARM
+  How to use heterogeneous computing to accelerate real-time transformer inference?
+  How to scale out computing in data centers, and how to scale up using chiplets?
 date: 2023-10-18T12:00:54.557Z
 date_end: 2023-10-18T16:00:00.000Z
 all_day: false
