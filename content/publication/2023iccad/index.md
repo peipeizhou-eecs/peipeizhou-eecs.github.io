@@ -17,6 +17,8 @@ featured: true
 links:
 - name: Code
   url: https://github.com/arc-research-lab/AIM 
+- name: Slides
+  url: "ICCAD23_AIM_Slides.pdf"
 tags:
   - ICCAD 
 image:
