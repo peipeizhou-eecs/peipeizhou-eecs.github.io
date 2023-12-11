@@ -2,8 +2,6 @@
 title: Architectural Challenges and Innovation for Compute Infrastructure Co-Design 
 location: " Open Compute Project (OCP) Summit 2023, San Jose, CA "
 abstract: >-
-  Which platform beats 7nm GPU A100 in energy efficiency? AMD Versal ACAP
-  (FPGA+AI Chip)
   How to use heterogeneous computing to accelerate real-time transformer inference?
   How to scale out computing in data centers, and how to scale up using chiplets?
 date: 2023-10-18T12:00:54.557Z
