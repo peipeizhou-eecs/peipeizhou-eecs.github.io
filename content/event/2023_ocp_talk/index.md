@@ -1,0 +1,29 @@
+---
+title: Architectural Challenges and Innovation for Compute Infrastructure Co-Design 
+location: " Open Compute Project (OCP) Summit 2023, San Jose, CA "
+abstract: >-
+  Which platform beats 7nm GPU A100 in energy efficiency? AMD Versal ACAP
+  (FPGA+AI Chip)
+  How to program AMD Versal ACAP, i.e., FPGA + AI Chip within the same chip die for deep learning applications in 10 lines of code? Use CHARM
+date: 2023-11-18T12:00:54.557Z
+date_end: 2023-11-18T16:00:00.000Z
+all_day: false
+event: "OCP Global Summit 2023"
+event_url: 
+publishDate: 2023-11-18T12:13:54.603Z
+draft: false
+featured: false
+authors:
+  - admin
+
+links:
+- name: Slides
+  url: "OCP23G_SYM-PeipeiZhou.pdf" 
+- name: YouTube 
+  url: https://www.youtube.com/watch?v=Lp5Al9vbqLg 
+
+image:
+  filename: featured
+  focal_point: Smart
+  preview_only: false
+---
