@@ -9,7 +9,7 @@ Thanks to the ESSC Chairs Ganapati Bhat and Biresh Kumar Joardar, ESWEEK 2023 Ch
 
 You are welcome to check our paper for this demo: 
 
-1. FPGA2023  [CHARM: Composing Heterogeneous Accelerators for Matrix Multiply on Versal ACAP Architecture](https://dl.acm.org/doi/pdf/10.1145/3543622.3573210). It's the Top 2 Downloaded paper in the FPGA 2023 proceeding. 
+1. FPGA2023  [CHARM: Composing Heterogeneous Accelerators for Matrix Multiply on Versal ACAP Architecture](https://dl.acm.org/doi/pdf/10.1145/3543622.3573210). It's the Top 1 Downloaded paper in the FPGA 2023 proceeding. 
 
 2. DAC2023 [High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives](https://peipeizhou-eecs.github.io/publication/2023dac/2023dac.pdf) 
 
