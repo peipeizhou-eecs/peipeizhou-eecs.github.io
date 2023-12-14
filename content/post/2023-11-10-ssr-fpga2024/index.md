@@ -1,6 +1,6 @@
 ---
-title: 11/10/2023 One Full Paper Accepted at FPGA 2024! Congratulations to Jinming, Zhuoping, and Shixin!
-date: 2023-11-10T06:20:14.522Z
+title: 12/10/2023 One Full Paper Accepted at FPGA 2024! Congratulations to Jinming, Zhuoping, and Shixin!
+date: 2023-12-11T06:20:14.522Z
 draft: false
 ---
 
