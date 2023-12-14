@@ -1,5 +1,6 @@
 ---
 title: Shixin Ji 
+weight: 3
 role: PhD Graduate Student
 avatar_filename: avatar
 social: []

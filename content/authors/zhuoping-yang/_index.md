@@ -1,5 +1,6 @@
 ---
 title: Zhuoping Yang
+weight: 2
 role: PhD Graduate Student
 avatar_filename: avatar
 social: []

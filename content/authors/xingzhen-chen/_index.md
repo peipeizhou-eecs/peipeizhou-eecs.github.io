@@ -1,5 +1,6 @@
 ---
 title: Xingzhen Chen 
+weight: 4
 role: PhD Graduate Student
 avatar_filename: avatar
 social: []

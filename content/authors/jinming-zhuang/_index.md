@@ -1,5 +1,6 @@
 ---
 title: Jinming Zhuang
+weight: 1
 role: PhD Graduate Student
 avatar_filename: avatar
 social: []
