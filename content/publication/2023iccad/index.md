@@ -9,7 +9,7 @@ authors:
   - Cunxi Yu
   - Alex K. Jones
   - admin
-publication: To appear in Proceedings of the 42nd IEEE/ACM International Conference on Computer-Aided Design, ICCAD 2023, October 29, 2023 -  November 2, 2022, San Francisco, CA, USA. Full Paper Accepted (acceptance ratio is 21 percent)  
+publication: To appear in Proceedings of the 42nd IEEE/ACM International Conference on Computer-Aided Design, ICCAD 2023, October 29, 2023 -  November 2, 2023, San Francisco, CA, USA. Full Paper Accepted (acceptance ratio is 21 percent)  
 
 
 draft: false
