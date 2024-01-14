@@ -1,5 +1,5 @@
 ---
-title: "SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff Design Space Exploration (🔥📣New Paper & Project🔥📣! )"
+title: "SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff in Transformer Acceleration (🔥📣New Paper & Project🔥📣! )"
 publication_types:
   - "1"
 authors:
