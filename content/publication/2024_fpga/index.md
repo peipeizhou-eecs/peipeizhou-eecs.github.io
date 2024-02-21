@@ -17,8 +17,10 @@ publication: To appear in Proceedings of the ACM/SIGDA International Symposium o
 draft: false
 featured: true
 links:
-#- name: Code
-#  url: https://github.com/arc-research-lab/AIM 
+- name: Code
+  url: https://github.com/arc-research-lab/SSR 
+- name: arXiv
+  url: https://arxiv.org/abs/2401.10417
 #- name: Slides
 #  url: "ICCAD23_AIM_Slides.pdf"
 tags:
@@ -27,5 +29,5 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
-date: 2023-12-10T00:53:11.299Z
+date: 2024-02-10T00:53:11.299Z
 ---
