@@ -11,16 +11,16 @@ authors:
   - Jingtong Hu
   - Yiyu Shi
   - admin
-publication: To appear in Proceedings of the ACM/SIGDA International Symposium on Field Programmable Gate Arrays, FPGA 2024, March 3 - March 5, Monterey, CA, US. Full Paper Accepted!  
+publication: Proceedings of the 2024 ACM/SIGDA International Symposium on Field Programmable Gate Arrays, FPGA 2024, March 3 - March 5, Monterey, CA, US. Full Paper Accepted! https://doi.org/10.1145/3626202.3637569  
 
 
 draft: false
 featured: true
 links:
+- name: PDF
+  url: https://dl.acm.org/doi/pdf/10.1145/3626202.3637569 
 - name: Code
   url: https://github.com/arc-research-lab/SSR 
-- name: arXiv
-  url: https://arxiv.org/abs/2401.10417
 #- name: Slides
 #  url: "ICCAD23_AIM_Slides.pdf"
 tags:

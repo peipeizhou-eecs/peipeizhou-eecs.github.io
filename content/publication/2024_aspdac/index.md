@@ -10,7 +10,7 @@ authors:
   - Weifeng Zhang
   - Dharmesh Jani
   - admin
-publication: To appear in Proceedings of Proceedings of the 28th Asia and South Pacific Design Automation Conference, ASPDAC 2024, Incheon Songdo Convensia, South Korea!  
+publication: Proceedings of the 28th Asia and South Pacific Design Automation Conference, ASPDAC 2024, Incheon Songdo Convensia, South Korea! https://doi.org/10.1109/ASP-DAC58780.2024.10473961 
 
 
 draft: false
@@ -18,6 +18,8 @@ featured: true
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2311.16417
+- name: PDF
+  url: https://ieeexplore.ieee.org/abstract/document/10473961
 #- name: PDF
 #  url: https://github.com/arc-research-lab/AIM 
 #- name: Slides
