@@ -1,5 +1,5 @@
 ---
-title: "SCARIF: Towards Carbon Modeling of Cloud Servers with Accelerators (🔥📣New Paper & Project🔥📣! )"
+title: "Enabling On-Device Self-Supervised LLM Personalization with Selective Synthetic Data (🔥📣New Paper & Project🔥📣! )"
 publication_types:
   - "1"
 authors:
