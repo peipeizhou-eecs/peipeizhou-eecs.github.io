@@ -21,6 +21,10 @@ links:
   url: https://github.com/arc-research-lab/AIM 
 - name: Slides
   url: "ICCAD23_AIM_Slides.pdf"
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://youtu.be/fpUPCLNd59w?si=OfhnpyTqOZ4A6SwD 
 tags:
   - ICCAD 
 image:
