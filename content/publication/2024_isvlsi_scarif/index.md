@@ -21,7 +21,9 @@ links:
 #  url: https://ieeexplore.ieee.org/abstract/document/10473961
 #- name: arXiv
 #  url: https://arxiv.org/abs/2311.16417
-- name: Demo 
+- icon: youtube
+  icon_pack: fab
+  name: Demo Video
   url: https://youtu.be/TZmR5TYUP6k?si=yIw7EGvJkiH5qDGz 
 - name: Code
   url: https://github.com/arc-research-lab/scarif 
