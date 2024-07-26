@@ -6,10 +6,10 @@ social: []
 education:
   courses:
     - institution: University of Pittsburgh
-      year: ""
-      course: BSc
+      year: 2024 
+      course: Bachelor of Science in Computer Engineering
 superuser: false
 user_groups:
-  - Undergraduate
+  - Alumni
 ---
-Sush joined Prof. Peipei Zhou's lab in 2023 Fall. Sushi's research interests include computation vision, deep learning, hw/sw co-design.
+Sush joined Prof. Peipei Zhou's lab in 2023 Fall. Sush's research interests include computation vision, deep learning, hw/sw co-design.
