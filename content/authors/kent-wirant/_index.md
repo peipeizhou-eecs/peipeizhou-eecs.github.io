@@ -15,3 +15,4 @@ superuser: false
 user_groups:
   - Alumni
 ---
+Kent joined Prof. Peipei Zhou's lab in 2023 January. Kent graduated in 2023 April and started Ph.D. in Electrical and Computer Engineering at Carnegie Mellon University. Congratulations to Kent!
