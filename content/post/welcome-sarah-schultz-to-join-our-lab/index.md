@@ -1,7 +1,7 @@
 ---
 title: 2024/07/26 Welcome Sarah Schultz to join our lab!
 subtitle: Welcome New Team Member!
-date: 2024-07-26T07:22:32.312Z
+date: 2024-07-25T07:22:32.312Z
 draft: false
 featured: false
 authors: []
