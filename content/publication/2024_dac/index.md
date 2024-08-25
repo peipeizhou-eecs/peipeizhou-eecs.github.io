@@ -11,7 +11,7 @@ authors:
   - admin
   - Jingtong Hu
   - Yiyu Shi 
-publication: Proceedings of the 61st ACM/IEEE Design Automation Conference, San Francisco, California, USA, (DAC ’24).  
+publication: Proceedings of the 61st ACM/IEEE Design Automation Conference, San Francisco, California, USA, (DAC ’24)  
 
 
 draft: false

@@ -11,7 +11,7 @@ authors:
   - Yiyu Shi
   - Alex Jones
   - admin
-publication: Proceedings of the IEEE Computer Society Annual Symposium on VLSI, ISVLSI 2024.  
+publication: Proceedings of the IEEE Computer Society Annual Symposium on VLSI, ISVLSI 2024  
 
 
 draft: false
