@@ -23,15 +23,25 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Tenure-Track Assistant Professor
+    company: Brown University
+    company_url: https://engineering.brown.edu/
+    location: Providence, RI
+    date_start: '2024-09-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        * Tenure-Track Assistant Professor
+        * Computer Engineering Concentration Advisor
+
+  - title: Tenure-Track Assistant Professor
     company: University of Pittsburgh
     company_url: https://www.engineering.pitt.edu/Departments/Electrical-Computer/
     # company_logo: org-pitt
     location: Pittsburgh, PA
     date_start: '2021-09-01'
-    date_end: ''
+    date_end: '2024-08-31'
     description: |2-
         Responsibilities include:
-        
         * Tenure-Track Assistant Professor
         
   - title: Staff Software Engineering 
