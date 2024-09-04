@@ -52,4 +52,6 @@ I'm honored to receive "Outstanding Recognition in Research" from UCLA Samueli S
 \
 [Website at Brown](https://engineering.brown.edu/people/peipei-zhou)
 \
+[Researchers@Brown](https://vivo.brown.edu/display/pzhou21)
+\
 [Former Website at UCLA](https://vast.cs.ucla.edu/people/alumni/peipei-zhou)
