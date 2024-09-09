@@ -22,7 +22,7 @@ social:
     link: https://github.com/arc-research-lab 
 organizations:
   - name: Brown University
-    url: https://www.brown.edu/
+    url: https://engineering.brown.edu/people/peipei-zhou 
 education:
   courses:
     - course: PhD in Computer Science
