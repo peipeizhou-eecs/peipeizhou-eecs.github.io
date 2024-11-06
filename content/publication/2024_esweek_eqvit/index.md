@@ -23,7 +23,8 @@ links:
 - name: Slides
   url: "2024_esweek_eqvit_slides_ShareVersion.pdf"
 tags:
-  - TCAD, ESWEEK
+  - TCAD
+  - ESWEEK
 image:
   filename: featured
   focal_point: Smart

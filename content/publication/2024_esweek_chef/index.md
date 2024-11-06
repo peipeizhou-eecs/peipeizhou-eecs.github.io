@@ -17,7 +17,8 @@ draft: false
 featured: true
 links:
 tags:
-  - TCAD, ESWEEK
+  - TCAD
+  - ESWEEK
 image:
   filename: featured
   focal_point: Smart
