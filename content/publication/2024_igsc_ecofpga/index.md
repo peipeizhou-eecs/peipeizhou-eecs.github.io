@@ -1,5 +1,5 @@
 ---
-title: "Amortizing Embodied Carbon Across Generations (🔥📣New Paper & Project🔥📣! )"
+title: "Amortizing Embodied Carbon Across Generations (🔥📣Best Viewpoint Paper in IGSC 2024🔥📣! )"
 publication_types:
   - "1"
 authors:
