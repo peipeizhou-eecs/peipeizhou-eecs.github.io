@@ -1,0 +1,26 @@
+---
+title: "Amortizing Embodied Carbon Across Generations (🔥📣New Paper & Project🔥📣! )"
+publication_types:
+  - "1"
+authors:
+  - Shixin Ji
+  - Jinming Zhuang
+  - Zhuoping Yang
+  - Alex Jones
+  - admin
+publication: Proceedings of the IEEE 15th International Green and Sustainable Computing Conference, IGSC 2024  
+
+
+draft: false
+featured: true
+links:
+- name: Slides
+  url: "IGSC_2024_ECO_FPGA_slides.pdf"
+tags:
+  - IGSC 
+image:
+  filename: featured
+  focal_point: Smart
+  preview_only: false
+date: 2024-11-05T00:53:11.299Z
+---
