@@ -15,7 +15,7 @@ authors:
   - Yiyu Shi
   - Yanzhi Wang
   - admin
-publication: International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS) in conjunction with (ESWEEK), RALEIGH, NC, USA, Sept. 29-Oct. 4, 2024. Also appears as part of the ESWEEK-TCAD Special Issue, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD).  
+publication: International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS) in conjunction with (ESWEEK), RALEIGH, NC, USA, Sept. 29-Oct. 4, 2024. Also appears as part of the ESWEEK-TCAD Special Issue, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD) 
 
 draft: false
 featured: true
