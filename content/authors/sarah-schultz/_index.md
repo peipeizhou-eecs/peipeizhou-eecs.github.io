@@ -1,7 +1,7 @@
 ---
 title: Sarah Schultz
 weight: 6
-role: Master Graduate Student Researcher
+role: PhD Graduate Student
 avatar_filename: avatar
 social: []
 education:
