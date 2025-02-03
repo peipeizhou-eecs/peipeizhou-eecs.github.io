@@ -16,6 +16,8 @@ featured: true
 links:
 - name: Slides
   url: "IGSC_2024_ECO_FPGA_slides.pdf"
+- name: IEEE
+  url: https://doi.org/10.1109/IGSC64514.2024.00021
 tags:
   - IGSC 
 image:
