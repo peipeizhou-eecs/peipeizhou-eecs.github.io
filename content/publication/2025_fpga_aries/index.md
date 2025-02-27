@@ -11,7 +11,7 @@ authors:
   - Tony Mao
   - Zhiru Zhang
   - admin
-publication: Proceedings of the 2025 ACM/SIGDA International Symposium on Field Programmable Gate Arrays, FPGA 2025, Feb. 28 - March 3, Monterey, CA, US. Full Paper Accepted! 
+publication: Proceedings of the 2025 ACM/SIGDA International Symposium on Field Programmable Gate Arrays, FPGA 2025, Feb. 28 - March 3, Monterey, CA, US. Full Paper Accepted! https://dl.acm.org/doi/10.1145/3706628.3708870 
 
 
 draft: false
