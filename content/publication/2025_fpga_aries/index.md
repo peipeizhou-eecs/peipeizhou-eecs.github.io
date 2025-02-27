@@ -17,10 +17,10 @@ publication: Proceedings of the 2025 ACM/SIGDA International Symposium on Field 
 draft: false
 featured: true
 links:
-#- name: PDF
-#  url: https://dl.acm.org/doi/pdf/10.1145/3626202.3637569 
-#- name: Code
-#  url: https://github.com/arc-research-lab/SSR 
+- name: PDF
+  url: https://dl.acm.org/doi/pdf/10.1145/3706628.3708870 
+- name: Code
+  url: https://github.com/arc-research-lab/Aries
 #- name: Slides
 #  url: "ICCAD23_AIM_Slides.pdf"
 tags:
