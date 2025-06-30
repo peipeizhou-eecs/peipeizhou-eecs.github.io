@@ -13,14 +13,14 @@ authors:
   - Alex Jones
   - Zheng Dong
   - admin
-publication: Proceedings of the Great Lakes Symposium on VLSI 2025, GLSVLSI 2025, June. 30 - July 2, New Orleans, LA, US. Full Paper Accepted! https://dl.acm.org/doi/10.1145/3716368.3735215 
+publication: Proceedings of the Great Lakes Symposium on VLSI 2025, GLSVLSI 2025, June 30 - July 2, New Orleans, LA, US. Full Paper Accepted! https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
 
 
 draft: false
 featured: true
 links:
 - name: PDF
-  url: https://dl.acm.org/doi/10.1145/3716368.3735215 
+  url: https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
 #- name: Code
 #  url: https://github.com/arc-research-lab/Aries
 #- name: Slides
