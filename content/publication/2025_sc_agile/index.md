@@ -8,7 +8,7 @@ authors:
   - Xingzhen Chen
   - Alex Jones
   - admin
-#publication: Proceedings of the Great Lakes Symposium on VLSI 2025, GLSVLSI 2025, June 30 - July 2, New Orleans, LA, US. Full Paper Accepted! https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
+publication: To appear in the Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis, SC 2025, Nov. 16 - Nov. 21, 2025, St. Louis, MO, US. Full Paper Accepted!  
 
 
 draft: false
