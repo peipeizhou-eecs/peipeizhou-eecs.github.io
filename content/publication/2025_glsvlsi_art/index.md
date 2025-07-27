@@ -23,8 +23,8 @@ links:
   url: https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
 #- name: Code
 #  url: https://github.com/arc-research-lab/Aries
-#- name: Slides
-#  url: "ICCAD23_AIM_Slides.pdf"
+- name: Slides
+  url: "ART_GLSVLSI25_ShareVersion.pdf"
 tags:
   - GLSVLSI 
 image:
