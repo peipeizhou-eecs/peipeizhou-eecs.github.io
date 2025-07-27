@@ -7,7 +7,7 @@ In this talk, I will first discuss how new mapping solutions, i.e., composing he
 date: 2025-05-09T12:00:54.557Z
 date_end: 2025-05-09T16:00:00.000Z
 all_day: false
-event: "University of Delaware, College of Engineering, Computer & Information Sciences Seminar"
+event: "University of Delaware, College of Engineering, Computer Information Sciences Seminar"
 event_url: https://events.udel.edu/event/cis-seminar-series-2025-peipei-zhou-phd-brown-university
 publishDate: 2025-05-09T12:13:54.603Z
 draft: false
