@@ -17,7 +17,7 @@ authors:
 
 links:
 - name: Slides
-  url: "2025_Efficient_Programming_talk_PeipeiZhou_ShareVersion" 
+  url: "2025_Efficient_Programming_talk_PeipeiZhou_ShareVersion.pdf" 
 - name: YouTube 
   url: https://www.youtube.com/watch?v=1Wo4FOTsTsM
 
