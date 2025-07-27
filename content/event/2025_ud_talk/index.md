@@ -8,8 +8,8 @@ date: 2025-05-09T12:00:54.557Z
 date_end: 2025-05-06T16:00:00.000Z
 all_day: false
 event: "University of Delaware, College of Engineering, Computer & Information Sciences Seminar"
-event_url: https://www.opencompute.org/events/past-events/2023-ocp-global-summit
-publishDate: 2023-10-18T12:13:54.603Z
+event_url: https://events.udel.edu/event/cis-seminar-series-2025-peipei-zhou-phd-brown-university
+publishDate: 2025-07-28T12:13:54.603Z
 draft: false
 featured: false
 authors:
@@ -19,7 +19,7 @@ links:
 - name: Slides
   url: "OCP23G_SYM-PeipeiZhou.pdf" 
 - name: YouTube 
-  url: https://www.youtube.com/watch?v=Lp5Al9vbqLg 
+  url: https://www.youtube.com/watch?v=1Wo4FOTsTsM 
 
 image:
   filename: featured
