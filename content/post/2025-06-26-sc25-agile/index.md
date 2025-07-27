@@ -1,5 +1,5 @@
 ---
-title: 2025/06/26 AGILE: Lightweight and Efficient Asynchronous GPU-SSD Integration Accepted at SC 2025! 
+title: 2025/06/26 AGILE Lightweight and Efficient Asynchronous GPU-SSD Integration Accepted at SC 2025! 
 date: 2025-06-26T06:20:14.522Z
 draft: false
 ---
