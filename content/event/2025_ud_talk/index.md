@@ -10,7 +10,7 @@ date_end: 2025-05-09T16:00:00.000Z
 all_day: false
 event: "University of Delaware, College of Engineering, Computer & Information Sciences Seminar"
 event_url: https://events.udel.edu/event/cis-seminar-series-2025-peipei-zhou-phd-brown-university
-publishDate: 2025-07-28T12:13:54.603Z
+publishDate: 2025-07-26T12:13:54.603Z
 draft: false
 featured: false
 authors:
