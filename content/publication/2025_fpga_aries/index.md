@@ -21,8 +21,9 @@ links:
   url: https://dl.acm.org/doi/pdf/10.1145/3706628.3708870 
 - name: Code
   url: https://github.com/arc-research-lab/Aries
-#- name: Slides
-#  url: "ICCAD23_AIM_Slides.pdf"
+- name: Slides
+  url: "FPGA25_ARIES_Slides_ShareVersion.pdf"
+
 tags:
   - FPGA 
 image:
