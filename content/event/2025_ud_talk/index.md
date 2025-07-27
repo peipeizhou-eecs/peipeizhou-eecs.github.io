@@ -2,10 +2,11 @@
 title: Efficient Programming on Heterogeneous Accelerators
 location: "  Sharp Laboratory, University of Delaware, Newark, DE 19716, USA"
 abstract: >-
-  How to use heterogeneous computing to accelerate real-time transformer inference?
-  How to scale out computing in data centers, and how to scale up using chiplets?
+  How to map deep learning workloads onto heterogeneous SoCs with FPGAs and tensor cores? 
+  How to explore latency-throughput tradeoffs? 
+  How to extend these strategies to GPUs?
 date: 2025-05-09T12:00:54.557Z
-date_end: 2025-05-06T16:00:00.000Z
+date_end: 2025-05-09T16:00:00.000Z
 all_day: false
 event: "University of Delaware, College of Engineering, Computer & Information Sciences Seminar"
 event_url: https://events.udel.edu/event/cis-seminar-series-2025-peipei-zhou-phd-brown-university
@@ -17,7 +18,7 @@ authors:
 
 links:
 - name: Slides
-  url: "OCP23G_SYM-PeipeiZhou.pdf" 
+  url: "2025_Efficient_Programming_PeipeiZhou_Share.pdf" 
 - name: YouTube 
   url: https://www.youtube.com/watch?v=1Wo4FOTsTsM 
 
