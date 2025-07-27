@@ -5,9 +5,9 @@ abstract: >-
   How to use heterogeneous computing to accelerate real-time transformer inference?
   How to scale out computing in data centers, and how to scale up using chiplets?
 date: 2025-05-09T12:00:54.557Z
-date_end: 2025-05-09T16:00:00.000Z
+date_end: 2025-05-06T16:00:00.000Z
 all_day: false
-event: "OCP Global Summit 2023"
+event: "University of Delaware, College of Engineering, Computer & Information Sciences Seminar"
 event_url: https://www.opencompute.org/events/past-events/2023-ocp-global-summit
 publishDate: 2023-10-18T12:13:54.603Z
 draft: false
