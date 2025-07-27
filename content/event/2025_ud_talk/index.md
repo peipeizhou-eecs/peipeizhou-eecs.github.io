@@ -1,11 +1,11 @@
 ---
-title: Architectural Challenges and Innovation for Compute Infrastructure Co-Design 
-location: " Open Compute Project (OCP) Summit 2023, San Jose, CA "
+title: Efficient Programming on Heterogeneous Accelerators
+location: "  Sharp Laboratory, University of Delaware, Newark, DE 19716, USA"
 abstract: >-
   How to use heterogeneous computing to accelerate real-time transformer inference?
   How to scale out computing in data centers, and how to scale up using chiplets?
-date: 2023-10-18T12:00:54.557Z
-date_end: 2023-10-18T16:00:00.000Z
+date: 2025-05-09T12:00:54.557Z
+date_end: 2025-05-09T16:00:00.000Z
 all_day: false
 event: "OCP Global Summit 2023"
 event_url: https://www.opencompute.org/events/past-events/2023-ocp-global-summit
