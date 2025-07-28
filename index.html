@@ -873,6 +873,12 @@ To appear in the 46th IEEE Real-Time Systems Symposium, RTSS 2025, December 2–
 <div class="section-subheading article-title mb-1 mt-3">
 <a href=/publication/2025_rtss_clare/>CLARE: Deterministic Cycle-Level Accelerator on REconfigurable platforms in DNN-Enabled Real-Time Safety-Critical Systems(🔥📣New Paper & Project🔥📣! )</a>
 </div>
+<a href=/publication/2025_rtss_clare/ class=summary-link>
+<div class=article-style>
+<p>Deep neural network (DNN) models are increasingly deployed in real-time, safety-critical systems such as autonomous vehicles, driving the need for specialized AI accelerators. How- ever, most existing accelerators support only non-preemptive execution or limited preemptive scheduling at the coarse granu- larity of DNN layers. This restriction leads to frequent priority inversion due to the scarcity of preemption points, resulting in unpredictable execution behavior and, ultimately, system failure.
+To address these limitations and improve the real-time performance of AI accelerators, we propose CLARERT, a novel accelerator architecture that supports fine-grained, intra-layer flexible preemptive scheduling with cycle-level determinism. CLARERT incorporates an on-chip Earliest Deadline First (EDF) scheduler to reduce both scheduling latency and variance, along with a customized dataflow design that enables intra-layer preemption points (PPs) while minimizing the overhead associated with preemption. Leveraging the limited preemptive task model, we perform a comprehensive predictability analysis of CLARERT, enabling formal schedulability analysis and optimized placement of preemption points within the constraints of limited preemptive scheduling. We implement CLARERT on the AMD ACAP VCK190 reconfigurable platform. Experimental results show that CLARERT outperforms state-of-the-art designs using non-preemptive and layerwise-preemptive dataflows, with less than 5% overhead in worst-case execution time (WCET) and only 6% additional resource utilization.</p>
+</div>
+</a>
 <div class=btn-links>
 <a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/2025_rtss_clare/cite.bib>
 Cite
@@ -900,6 +906,12 @@ To appear in the Proceedings of the International Conference for High Performanc
 <div class="section-subheading article-title mb-1 mt-3">
 <a href=/publication/2025_sc_agile/>AGILE: Lightweight and Efficient Asynchronous GPU-SSD Integration(🔥📣New Paper & Project🔥📣! )</a>
 </div>
+<a href=/publication/2025_sc_agile/ class=summary-link>
+<div class=article-style>
+<p>Graphics Processing Units (GPUs) have become essential for com- putationally intensive applications. However, emerging workloads such as recommender systems, graph analytics, and data analytics often involve processing data exceeding GPU device memory capacity. To mitigate this issue, existing solutions enable GPUs to use CPU DRAM or SSDs as external memory. Among them, the GPU-centric approach lets GPU threads directly initiate NVMe requests, eliminating CPU intervention overhead over traditional methods. However, the SOTA GPU-centric approach adopts a synchronous IO model, and threads must tolerate the long latency in communication before starting any tasks.
+In this work, we propose AGILE, a lightweight and efficient asynchronous library allowing GPU threads to access SSDs asynchronously while eliminating deadlock risks. AGILE also integrates a flexible software cache using GPU High-Bandwidth Memory (HBM). We demonstrate that the asynchronous GPU-centric IO achieves up to 1.88× improvement in workloads with different computation-to-communication (CTC) ratios. We also compare AGILE with the SOTA work BaM on Deep Learning Recommendation Models (DLRM) with various settings, and the results show that AGILE achieves 1.75× performance improvement due to its efficient design and the overlapping strategy enabled by an asynchronous IO model. We further evaluate AGILE’s API overhead on graph applications, and the results demonstrate AGILE reduces software cache overhead by up to 3.12× and overhead in NVMe IO requests by up to 2.85×. Compared with BaM, AGILE consumes fewer registers and exhibits up to 1.32× reduction in the usage of registers.</p>
+</div>
+</a>
 <div class=btn-links>
 <a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/2025_sc_agile/cite.bib>
 Cite
