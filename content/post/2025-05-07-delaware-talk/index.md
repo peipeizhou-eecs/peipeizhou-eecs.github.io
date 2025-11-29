@@ -1,6 +1,6 @@
 ---
 title: 2025/05/09 Prof. Zhou gave invited talks at University of Delaware, Computer Science!
-date: 2025-07-27T06:20:14.522Z
+date: 2025-05-09T06:20:14.522Z
 draft: false
 ---
 
