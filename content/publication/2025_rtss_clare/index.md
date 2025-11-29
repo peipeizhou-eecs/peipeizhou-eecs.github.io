@@ -1,5 +1,5 @@
 ---
-title: "CLARE: Deterministic Cycle-Level Accelerator on REconfigurable platforms in DNN-Enabled Real-Time Safety-Critical Systems(🔥📣New Paper & Project🔥📣! )"
+title: "DERCA: DERCA: DetERministic Cycle-Level Accelerator on Reconfigurable Platforms in DNN-Enabled Real-Time Safety-Critical Systems (🔥📣New Paper & Project🔥📣! )"
 publication_types:
   - "1"
 authors:
