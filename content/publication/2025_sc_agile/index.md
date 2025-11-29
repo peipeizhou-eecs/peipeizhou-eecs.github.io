@@ -8,7 +8,7 @@ authors:
   - Xingzhen Chen
   - Alex Jones
   - admin
-publication: To appear in the Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis, SC 2025, Nov. 16 - Nov. 21, 2025, St. Louis, MO, US. Full Paper Accepted!  
+publication: Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis, SC 2025, Nov. 16 - Nov. 21, 2025, St. Louis, MO, US. Full Paper Accepted! https://dl.acm.org/doi/10.1145/3712285.3759778 
 
 abstract: >-
   Graphics Processing Units (GPUs) have become essential for com- putationally intensive applications. However, emerging workloads such as recommender systems, graph analytics, and data analytics often involve processing data exceeding GPU device memory capacity. To mitigate this issue, existing solutions enable GPUs to use CPU DRAM or SSDs as external memory. Among them, the GPU-centric approach lets GPU threads directly initiate NVMe requests, eliminating CPU intervention overhead over traditional methods. However, the SOTA GPU-centric approach adopts a synchronous IO model, and threads must tolerate the long latency in communication before starting any tasks. 
@@ -19,14 +19,14 @@ abstract: >-
 draft: false
 featured: true
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2504.19365
-#- name: PDF
-#  url: https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
-#- name: Code
-#  url: https://github.com/arc-research-lab/Aries
-#- name: Slides
-#  url: "ICCAD23_AIM_Slides.pdf"
+#- name: arXiv
+#  url: https://arxiv.org/abs/2504.19365
+- name: PDF
+  url: https://dl.acm.org/doi/10.1145/3712285.3759778 
+- name: Code
+  url: https://github.com/arc-research-lab/AGILE
+- name: Slides
+  url: "20251119_SC25_AGILE_Final_ShareVersion.pdf"
 tags:
   - Supercomputing 
 image:
