@@ -27,11 +27,13 @@ links:
   url: https://github.com/arc-research-lab/AGILE
 - name: Slides
   url: "20251119_SC25_AGILE_Final_ShareVersion.pdf"
+- name: Video
+  url: https://youtube.com/watch?v=RN2XhpcKSO4&feature=youtu.be
 tags:
   - Supercomputing 
 image:
   filename: featured
   focal_point: Smart
   preview_only: false
-date: 2025-07-01T00:53:11.299Z
+date: 2025-11-29T00:53:11.299Z
 ---

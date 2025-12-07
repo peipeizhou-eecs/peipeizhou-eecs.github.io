@@ -27,15 +27,15 @@ links:
 #  url: https://arxiv.org/abs/2504.19365
 #- name: PDF
 #  url: https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
-#- name: Code
-#  url: https://github.com/arc-research-lab/Aries
-#- name: Slides
-#  url: "ICCAD23_AIM_Slides.pdf"
+- name: Code
+  url: https://github.com/arc-research-lab/DERCA
+- name: Slides
+  url: "20251205_DERCA_IEEE_RTSS_2025_ShareVersion.pdf"
 tags:
   - RTSS 
 image:
   filename: featured
   focal_point: Smart
   preview_only: false
-date: 2025-07-27T00:53:11.299Z
+date: 2025-12-05T00:53:11.299Z
 ---
