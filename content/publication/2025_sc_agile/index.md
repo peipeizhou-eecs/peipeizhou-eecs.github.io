@@ -27,7 +27,9 @@ links:
   url: https://github.com/arc-research-lab/AGILE
 - name: Slides
   url: "20251119_SC25_AGILE_Final_ShareVersion.pdf"
-- name: Video
+- icon: youtube
+  icon_pack: fab
+  name: Video
   url: https://youtube.com/watch?v=RN2XhpcKSO4&feature=youtu.be
 tags:
   - Supercomputing 
