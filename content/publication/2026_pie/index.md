@@ -18,7 +18,7 @@ links:
 #  url: https://arxiv.org/abs/2504.19365
 #- name: PDF
 #  url: https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
-- name: Springer Nature
+- name: Springer
   url: https://rdcu.be/e7m2b  
 tags:
   - JCST
