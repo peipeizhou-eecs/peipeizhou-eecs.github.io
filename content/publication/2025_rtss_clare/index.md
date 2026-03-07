@@ -11,7 +11,7 @@ authors:
   - Alex Jones
   - Zheng Dong
   - Admin
-publication: To appear in the 46th IEEE Real-Time Systems Symposium, RTSS 2025, December 2–5, 2025, Boston, MA, USA. Full Paper Accepted! https://ieeexplore.ieee.org/document/11315054 
+publication: Proceedings of the 46th IEEE Real-Time Systems Symposium, RTSS 2025, December 2–5, 2025, Boston, MA, USA. Full Paper Accepted! https://ieeexplore.ieee.org/document/11315054
 
 abstract: >-
   Deep neural network (DNN) models are increasingly deployed in real-time, safety-critical systems such as autonomous vehicles, driving the need for specialized AI accelerators. However, most existing accelerators support only non-preemptive execution or limited preemptive scheduling at the coarse granularity of DNN layers. This restriction leads to frequent priority inversion due to the scarcity of preemption points, resulting in unpredictable execution behavior and, ultimately, system failure. 
