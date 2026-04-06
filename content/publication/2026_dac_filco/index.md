@@ -20,7 +20,7 @@ To solve this problem, we propose a flexible composing architecture, FILCO, that
 
 draft: false
 featured: true
-links:
+#links:
 #- name: arXiv
 #  url: https://arxiv.org/abs/2504.19365
 #- name: PDF
