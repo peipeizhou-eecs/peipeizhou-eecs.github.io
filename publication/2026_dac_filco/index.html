@@ -5,8 +5,10 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Peipei Zhou">
-<meta name=description content>
-<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2023dac/>
+<meta name=description content="With the development of deep neural network (DNN) enabled applications, achieving high hardware resource efficiency on diverse workloads is non-trivial in heterogeneous computing platforms. Prior works discuss dedicated architectures to achieve maximal resource efficiency. However, a mismatch between hardware and workloads always exists in various diverse workloads. Other works discuss overlay architecture that can dynamically switch dataflow for different workloads. However, these works are still limited by flexibility granularity and induce much resource inefficiency. 
+
+To solve this problem, we propose a flexible composing architecture, FILCO, that can efficiently match diverse workloads to achieve the optimal storage and computation resource efficiency. FILCO can be reconfigured in real-time and flexibly composed into a unified or multiple independent accelerators. We also propose the FILCO framework, including an analytical model with a two-stage DSE that can achieve the optimal design point. We also evaluate the FILCO framework on the 7nm AMD Versal VCK190 board. Compared with prior works, our design can achieve 1.3x∼5x throughput and hardware efficiency on various diverse workloads.">
+<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -20,19 +22,21 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2023dac/>
+<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Peipei Zhou's Homepage">
-<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2023dac/">
-<meta property="og:title" content="High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage">
-<meta property="og:description" content><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2026_dac_filco/">
+<meta property="og:title" content="FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage">
+<meta property="og:description" content="With the development of deep neural network (DNN) enabled applications, achieving high hardware resource efficiency on diverse workloads is non-trivial in heterogeneous computing platforms. Prior works discuss dedicated architectures to achieve maximal resource efficiency. However, a mismatch between hardware and workloads always exists in various diverse workloads. Other works discuss overlay architecture that can dynamically switch dataflow for different workloads. However, these works are still limited by flexibility granularity and induce much resource inefficiency. 
+
+To solve this problem, we propose a flexible composing architecture, FILCO, that can efficiently match diverse workloads to achieve the optimal storage and computation resource efficiency. FILCO can be reconfigured in real-time and flexibly composed into a unified or multiple independent accelerators. We also propose the FILCO framework, including an analytical model with a two-stage DSE that can achieve the optimal design point. We also evaluate the FILCO framework on the 7nm AMD Versal VCK190 board. Compared with prior works, our design can achieve 1.3x∼5x throughput and hardware efficiency on various diverse workloads."><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2023-02-24T00:53:11+00:00">
-<meta property="article:modified_time" content="2023-02-24T00:53:11+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2023dac/"},"headline":"High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives (🔥📣New Paper \u0026 Project🔥📣! )","datePublished":"2023-02-24T00:53:11Z","dateModified":"2023-02-24T00:53:11Z","author":{"@type":"Person","name":"Jinming Zhuang"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":""}</script>
-<title>High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage</title>
+<meta property="article:published_time" content="2026-03-09T00:53:11+00:00">
+<meta property="article:modified_time" content="2026-03-09T00:53:11+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2026_dac_filco/"},"headline":"FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper \u0026 Project🔥📣! )","datePublished":"2026-03-09T00:53:11Z","dateModified":"2026-03-09T00:53:11Z","author":{"@type":"Person","name":"Xingzhen Chen"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"With the development of deep neural network (DNN) enabled applications, achieving high hardware resource efficiency on diverse workloads is non-trivial in heterogeneous computing platforms. Prior works discuss dedicated architectures to achieve maximal resource efficiency. However, a mismatch between hardware and workloads always exists in various diverse workloads. Other works discuss overlay architecture that can dynamically switch dataflow for different workloads. However, these works are still limited by flexibility granularity and induce much resource inefficiency. \n\nTo solve this problem, we propose a flexible composing architecture, FILCO, that can efficiently match diverse workloads to achieve the optimal storage and computation resource efficiency. FILCO can be reconfigured in real-time and flexibly composed into a unified or multiple independent accelerators. We also propose the FILCO framework, including an analytical model with a two-stage DSE that can achieve the optimal design point. We also evaluate the FILCO framework on the 7nm AMD Versal VCK190 board. Compared with prior works, our design can achieve 1.3x∼5x throughput and hardware efficiency on various diverse workloads."}</script>
+<title>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=62ce451cddb0ece190f3b55c21cbb564>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=746737bfe14e05747f260cd4ca9f6b10>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -128,41 +132,34 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives (🔥📣New Paper & Project🔥📣! )</h1>
+<h1>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! )</h1>
 <div class=article-metadata>
 <div>
 <span>
+<a href=/author/xingzhen-chen/>Xingzhen Chen</a></span>, <span>
 <a href=/author/jinming-zhuang/>Jinming Zhuang</a></span>, <span>
-<a href=/author/zhuoping-yang/>Zhuoping Yang</a></span>, <span class=author-highlighted>
+<a href=/author/zhuoping-yang/>Zhuoping Yang</a></span>, <span>
+<a href=/author/shixin-ji/>Shixin Ji</a></span>, <span>
+<a href=/author/sarah-schultz/>Sarah Schultz</a></span>, <span>
+<a href=/author/zheng-dong/>Zheng Dong</a></span>, <span>
+<a href=/author/weisong-shi/>Weisong Shi</a></span>, <span class=author-highlighted>
 <a href=/author/peipei-zhou/>Peipei Zhou</a></span>
 </div>
 <span class=article-date>
-February 2023
+March 2026
 </span>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/publication/2023dac/2023dac.pdf target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/2023dac/cite.bib>
+<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/2026_dac_filco/cite.bib>
 Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://ieeexplore.ieee.org/document/10247981 target=_blank rel=noopener>
-IEEE
-</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://github.com/arc-research-lab/CHARM target=_blank rel=noopener>
-Code
-</a>
-<a class="btn btn-outline-primary btn-page-header" href="https://docs.google.com/presentation/d/1aMdcKQ_bZfjpwJ1p_i_GOk2vb_8n2TCO/edit?usp=sharing&ouid=100145145140914150451&rtpof=true&sd=true" target=_blank rel=noopener>
-Slides
-</a>
-<a class="btn btn-outline-primary btn-page-header" href="https://drive.google.com/file/d/12NWq4ewDYTycjJ8ZdboVUyb_YAR8SztV/view?usp=sharing" target=_blank rel=noopener>
-<i class="fab fa-youtube mr-1"></i>
-Video
 </a>
 </div>
 </div>
 <div class=article-container>
+<h3>Abstract</h3>
+<p class=pub-abstract><p>With the development of deep neural network (DNN) enabled applications, achieving high hardware resource efficiency on diverse workloads is non-trivial in heterogeneous computing platforms. Prior works discuss dedicated architectures to achieve maximal resource efficiency. However, a mismatch between hardware and workloads always exists in various diverse workloads. Other works discuss overlay architecture that can dynamically switch dataflow for different workloads. However, these works are still limited by flexibility granularity and induce much resource inefficiency.</p>
+<p>To solve this problem, we propose a flexible composing architecture, FILCO, that can efficiently match diverse workloads to achieve the optimal storage and computation resource efficiency. FILCO can be reconfigured in real-time and flexibly composed into a unified or multiple independent accelerators. We also propose the FILCO framework, including an analytical model with a two-stage DSE that can achieve the optimal design point. We also evaluate the FILCO framework on the 7nm AMD Versal VCK190 board. Compared with prior works, our design can achieve 1.3x∼5x throughput and hardware efficiency on various diverse workloads.</p>
+</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
@@ -183,7 +180,7 @@ Conference paper
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-<div class="col-12 col-md-9">Proceedings of the 60th ACM/IEEE Design Automation Conference, San Francisco, California, USA, (DAC ’23), July 9–13, 2023, San Francisco, CA, USA. Full Paper Accepted (acceptance ratio is 23 percent)</div>
+<div class="col-12 col-md-9">Proceedings of the ACM/IEEE Design Automation Conference, DAC ’26, July 26 - July 29, 2026, Long Beach, CA, USA. Full Paper Accepted!</div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -197,36 +194,44 @@ Conference paper
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2023dac/&text=High%20Performance,%20Low%20Power%20Matrix%20Multiply%20Design%20on%20ACAP:%20from%20Architecture,%20Design%20Challenges%20and%20DSE%20Perspectives%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/&text=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2023dac/&t=High%20Performance,%20Low%20Power%20Matrix%20Multiply%20Design%20on%20ACAP:%20from%20Architecture,%20Design%20Challenges%20and%20DSE%20Perspectives%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/&t=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=High%20Performance,%20Low%20Power%20Matrix%20Multiply%20Design%20on%20ACAP:%20from%20Architecture,%20Design%20Challenges%20and%20DSE%20Perspectives%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29&body=https://peipeizhou-eecs.github.io/publication/2023dac/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29&body=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2023dac/&title=High%20Performance,%20Low%20Power%20Matrix%20Multiply%20Design%20on%20ACAP:%20from%20Architecture,%20Design%20Challenges%20and%20DSE%20Perspectives%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/&title=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=High%20Performance,%20Low%20Power%20Matrix%20Multiply%20Design%20on%20ACAP:%20from%20Architecture,%20Design%20Challenges%20and%20DSE%20Perspectives%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29%20https://peipeizhou-eecs.github.io/publication/2023dac/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29%20https://peipeizhou-eecs.github.io/publication/2026_dac_filco/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2023dac/&title=High%20Performance,%20Low%20Power%20Matrix%20Multiply%20Design%20on%20ACAP:%20from%20Architecture,%20Design%20Challenges%20and%20DSE%20Perspectives%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2026_dac_filco/&title=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
 </ul>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/xingzhen-chen/>Xingzhen Chen</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
 </div>
 <div class="media author-card content-widget-hr">
 <div class=media-body>
@@ -239,6 +244,22 @@ Conference paper
 <div class="media author-card content-widget-hr">
 <div class=media-body>
 <h5 class=card-title><a href=/author/zhuoping-yang/>Zhuoping Yang</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/shixin-ji/>Shixin Ji</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/sarah-schultz/>Sarah Schultz</a></h5>
 <h6 class=card-subtitle>PhD Graduate Student</h6>
 <ul class=network-icon aria-hidden=true>
 </ul>
@@ -277,8 +298,8 @@ Conference paper
 <div class="article-widget content-widget-hr">
 <h3>Related</h3>
 <ul>
-<li><a href=/publication/2026_dac_filco/>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2024_dac/>Enabling On-Device Self-Supervised LLM Personalization with Selective Synthetic Data (🔥📣New Paper & Project🔥📣! )</a></li>
+<li><a href=/publication/2023dac/>High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives (🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2022_dac/>H2H: Heterogeneous Model to Heterogeneous System Mapping with Computation and Communication Awareness</a></li>
 <li><a href=/publication/2017_dac/>Bandwidth Optimization Through On-Chip Memory Restructuring for HLS</a></li>
 </ul>
