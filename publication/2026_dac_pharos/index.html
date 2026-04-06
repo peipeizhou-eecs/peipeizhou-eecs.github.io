@@ -5,9 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Peipei Zhou">
-<meta name=description content="High-level synthesis (HLS) is getting increasing attention from both academia and industry for high-quality and high-productivity designs. However, when inferring primitive-type arrays in HLS designs into on-chip memory buffers, commercial HLS tools fail to effectively organize FPGAs’ on-chip BRAM building blocks to realize high-bandwidth data communication; this often leads to suboptimal quality of results. This paper addresses this issue via automated on-chip buffer restructuring. Specifically, we present three buffer restructuring approaches and develop an analytical model for each approach to capture its impact on performance and resource consumption. With the proposed model, we formulate the process of identifying the optimal design choice into an integer non-linear programming (INLP) problem and demonstrate that it can be solved efficiently with the help of a one-time C-to-HDL(hardware description language) synthesis. The experimental results show that our automated source-to-source code transformation tool improves the performance of a broad class of HLS designs by averagely 4.8x.
-">
-<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2017_dac/>
+<meta name=description content="Spatially partitioned heterogeneous accelerators (HAs) are increasingly adopted in embedded systems for their performance and flexibility. Yet most existing HA design frameworks optimize primarily for throughput or quality-of-service (QoS) metrics. They often overlook safety-critical real-time requirements, including hardware support for predictable execution, real-time-aware design space exploration (DSE), and rigorous schedulability analysis. These requirements are essential in safety-critical applications such as smart transportation, where schedulability guarantees directly affect system safety. To address this gap, we present PHAROS, a real-time-centric HA design framework. PHAROS introduces preemption mechanisms and scheduler designs for spatially partitioned HAs under first-in-first-out (FIFO) and earliest-deadline-first (EDF) policies. Leveraging modern real-time theory, we further develop a soft real-time (SRT) schedulability-oriented DSE with objectives and constraints tailored to SRT schedulability. Through comprehensive modeling, analysis, and evaluation across diverse applications, we show that PHAROS’s schedulability-oriented DSE discovers more feasible configurations for a broader range of task sets than throughput-oriented DSE baselines, while delivering improved real-time performance. We also provide response-time analyses for the supported scheduling algorithms.">
+<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -21,20 +20,19 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2017_dac/>
+<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Peipei Zhou's Homepage">
-<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2017_dac/">
-<meta property="og:title" content="Bandwidth Optimization Through On-Chip Memory Restructuring for HLS | Peipei Zhou's Homepage">
-<meta property="og:description" content="High-level synthesis (HLS) is getting increasing attention from both academia and industry for high-quality and high-productivity designs. However, when inferring primitive-type arrays in HLS designs into on-chip memory buffers, commercial HLS tools fail to effectively organize FPGAs’ on-chip BRAM building blocks to realize high-bandwidth data communication; this often leads to suboptimal quality of results. This paper addresses this issue via automated on-chip buffer restructuring. Specifically, we present three buffer restructuring approaches and develop an analytical model for each approach to capture its impact on performance and resource consumption. With the proposed model, we formulate the process of identifying the optimal design choice into an integer non-linear programming (INLP) problem and demonstrate that it can be solved efficiently with the help of a one-time C-to-HDL(hardware description language) synthesis. The experimental results show that our automated source-to-source code transformation tool improves the performance of a broad class of HLS designs by averagely 4.8x.
-"><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/">
+<meta property="og:title" content="FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage">
+<meta property="og:description" content="Spatially partitioned heterogeneous accelerators (HAs) are increasingly adopted in embedded systems for their performance and flexibility. Yet most existing HA design frameworks optimize primarily for throughput or quality-of-service (QoS) metrics. They often overlook safety-critical real-time requirements, including hardware support for predictable execution, real-time-aware design space exploration (DSE), and rigorous schedulability analysis. These requirements are essential in safety-critical applications such as smart transportation, where schedulability guarantees directly affect system safety. To address this gap, we present PHAROS, a real-time-centric HA design framework. PHAROS introduces preemption mechanisms and scheduler designs for spatially partitioned HAs under first-in-first-out (FIFO) and earliest-deadline-first (EDF) policies. Leveraging modern real-time theory, we further develop a soft real-time (SRT) schedulability-oriented DSE with objectives and constraints tailored to SRT schedulability. Through comprehensive modeling, analysis, and evaluation across diverse applications, we show that PHAROS’s schedulability-oriented DSE discovers more feasible configurations for a broader range of task sets than throughput-oriented DSE baselines, while delivering improved real-time performance. We also provide response-time analyses for the supported scheduling algorithms."><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2017-06-17T11:07:12+00:00">
-<meta property="article:modified_time" content="2017-06-17T11:07:12+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2017_dac/"},"headline":"Bandwidth Optimization Through On-Chip Memory Restructuring for HLS","datePublished":"2017-06-17T11:07:12Z","dateModified":"2017-06-17T11:07:12Z","author":{"@type":"Person","name":"Jason Cong"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"High-level synthesis (HLS) is getting increasing attention from both academia and industry for high-quality and high-productivity designs. However, when inferring primitive-type arrays in HLS designs into on-chip memory buffers, commercial HLS tools fail to effectively organize FPGAs’ on-chip BRAM building blocks to realize high-bandwidth data communication; this often leads to suboptimal quality of results. This paper addresses this issue via automated on-chip buffer restructuring. Specifically, we present three buffer restructuring approaches and develop an analytical model for each approach to capture its impact on performance and resource consumption. With the proposed model, we formulate the process of identifying the optimal design choice into an integer non-linear programming (INLP) problem and demonstrate that it can be solved efficiently with the help of a one-time C-to-HDL(hardware description language) synthesis. The experimental results show that our automated source-to-source code transformation tool improves the performance of a broad class of HLS designs by averagely 4.8x.\n"}</script>
-<title>Bandwidth Optimization Through On-Chip Memory Restructuring for HLS | Peipei Zhou's Homepage</title>
+<meta property="article:published_time" content="2026-03-09T00:53:12+00:00">
+<meta property="article:modified_time" content="2026-03-09T00:53:12+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/"},"headline":"FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper \u0026 Project🔥📣! )","datePublished":"2026-03-09T00:53:12Z","dateModified":"2026-03-09T00:53:12Z","author":{"@type":"Person","name":"Shixin Ji"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"Spatially partitioned heterogeneous accelerators (HAs) are increasingly adopted in embedded systems for their performance and flexibility. Yet most existing HA design frameworks optimize primarily for throughput or quality-of-service (QoS) metrics. They often overlook safety-critical real-time requirements, including hardware support for predictable execution, real-time-aware design space exploration (DSE), and rigorous schedulability analysis. These requirements are essential in safety-critical applications such as smart transportation, where schedulability guarantees directly affect system safety. To address this gap, we present PHAROS, a real-time-centric HA design framework. PHAROS introduces preemption mechanisms and scheduler designs for spatially partitioned HAs under first-in-first-out (FIFO) and earliest-deadline-first (EDF) policies. Leveraging modern real-time theory, we further develop a soft real-time (SRT) schedulability-oriented DSE with objectives and constraints tailored to SRT schedulability. Through comprehensive modeling, analysis, and evaluation across diverse applications, we show that PHAROS’s schedulability-oriented DSE discovers more feasible configurations for a broader range of task sets than throughput-oriented DSE baselines, while delivering improved real-time performance. We also provide response-time analyses for the supported scheduling algorithms."}</script>
+<title>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=6f2042b6da9c691ff552e3eb3c4924d5>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=35b42097f85b71b9992fc778c0f9325d>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -130,31 +128,33 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>Bandwidth Optimization Through On-Chip Memory Restructuring for HLS</h1>
+<h1>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! )</h1>
 <div class=article-metadata>
 <div>
 <span>
-<a href=/author/jason-cong/>Jason Cong</a></span>, <span>
-<a href=/author/peng-wei/>Peng Wei</a></span>, <span>
-<a href=/author/cody-hao-yu/>Cody Hao Yu</a></span>, <span class=author-highlighted>
+<a href=/author/shixin-ji/>Shixin Ji</a></span>, <span>
+<a href=/author/jinming-zhuang/>Jinming Zhuang</a></span>, <span>
+<a href=/author/sarah-schultz/>Sarah Schultz</a></span>, <span>
+<a href=/author/zhuoping-yang/>Zhuoping Yang</a></span>, <span>
+<a href=/author/xingzhen-chen/>Xingzhen Chen</a></span>, <span>
+<a href=/author/zheng-dong/>Zheng Dong</a></span>, <span>
+<a href=/author/alex-k.-jones/>Alex K. Jones</a></span>, <span>
+<a href=/author/yihui-ren/>Yihui Ren</a></span>, <span class=author-highlighted>
 <a href=/author/peipei-zhou/>Peipei Zhou</a></span>
 </div>
 <span class=article-date>
-June 2017
+March 2026
 </span>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/publication/2017_dac/2017_dac.pdf target=_blank rel=noopener>
-PDF
-</a>
-<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/2017_dac/cite.bib>
+<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/2026_dac_pharos/cite.bib>
 Cite
 </a>
 </div>
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract>High-level synthesis (HLS) is getting increasing attention from both academia and industry for high-quality and high-productivity designs. However, when inferring primitive-type arrays in HLS designs into on-chip memory buffers, commercial HLS tools fail to effectively organize FPGAs’ on-chip BRAM building blocks to realize high-bandwidth data communication; this often leads to suboptimal quality of results. This paper addresses this issue via automated on-chip buffer restructuring. Specifically, we present three buffer restructuring approaches and develop an analytical model for each approach to capture its impact on performance and resource consumption. With the proposed model, we formulate the process of identifying the optimal design choice into an integer non-linear programming (INLP) problem and demonstrate that it can be solved efficiently with the help of a one-time C-to-HDL(hardware description language) synthesis. The experimental results show that our automated source-to-source code transformation tool improves the performance of a broad class of HLS designs by averagely 4.8x.</p>
+<p class=pub-abstract>Spatially partitioned heterogeneous accelerators (HAs) are increasingly adopted in embedded systems for their performance and flexibility. Yet most existing HA design frameworks optimize primarily for throughput or quality-of-service (QoS) metrics. They often overlook safety-critical real-time requirements, including hardware support for predictable execution, real-time-aware design space exploration (DSE), and rigorous schedulability analysis. These requirements are essential in safety-critical applications such as smart transportation, where schedulability guarantees directly affect system safety. To address this gap, we present PHAROS, a real-time-centric HA design framework. PHAROS introduces preemption mechanisms and scheduler designs for spatially partitioned HAs under first-in-first-out (FIFO) and earliest-deadline-first (EDF) policies. Leveraging modern real-time theory, we further develop a soft real-time (SRT) schedulability-oriented DSE with objectives and constraints tailored to SRT schedulability. Through comprehensive modeling, analysis, and evaluation across diverse applications, we show that PHAROS’s schedulability-oriented DSE discovers more feasible configurations for a broader range of task sets than throughput-oriented DSE baselines, while delivering improved real-time performance. We also provide response-time analyses for the supported scheduling algorithms.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
@@ -175,7 +175,7 @@ Conference paper
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-<div class="col-12 col-md-9">54th Annual Design Automation Conference (ACM DAC 17), acceptance rate: 161/676 = 24%</div>
+<div class="col-12 col-md-9">Proceedings of the ACM/IEEE Design Automation Conference, DAC ’26, July 26 - July 29, 2026, Long Beach, CA, USA. Full Paper Accepted!</div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -189,36 +189,76 @@ Conference paper
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2017_dac/&text=Bandwidth%20Optimization%20Through%20On-Chip%20Memory%20Restructuring%20for%20HLS" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/&text=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2017_dac/&t=Bandwidth%20Optimization%20Through%20On-Chip%20Memory%20Restructuring%20for%20HLS" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/&t=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Bandwidth%20Optimization%20Through%20On-Chip%20Memory%20Restructuring%20for%20HLS&body=https://peipeizhou-eecs.github.io/publication/2017_dac/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29&body=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2017_dac/&title=Bandwidth%20Optimization%20Through%20On-Chip%20Memory%20Restructuring%20for%20HLS" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/&title=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Bandwidth%20Optimization%20Through%20On-Chip%20Memory%20Restructuring%20for%20HLS%20https://peipeizhou-eecs.github.io/publication/2017_dac/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29%20https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2017_dac/&title=Bandwidth%20Optimization%20Through%20On-Chip%20Memory%20Restructuring%20for%20HLS" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2026_dac_pharos/&title=FILCO:%20Flexible%20Composing%20Architecture%20with%20Real-Time%20Reconfigurability%20for%20DNN%20Acceleration%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
 </ul>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/shixin-ji/>Shixin Ji</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/jinming-zhuang/>Jinming Zhuang</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/sarah-schultz/>Sarah Schultz</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/zhuoping-yang/>Zhuoping Yang</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/xingzhen-chen/>Xingzhen Chen</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
 </div>
 <div class="media author-card content-widget-hr">
 <a href=https://peipeizhou-eecs.github.io/><img class="avatar mr-3 avatar-circle" src=/author/peipei-zhou/avatar_hu80b7558909def6d2fb092cd7f28877cb_2616395_270x270_fill_q75_lanczos_center.jpg alt="Peipei Zhou"></a>
@@ -253,11 +293,11 @@ Conference paper
 <div class="article-widget content-widget-hr">
 <h3>Related</h3>
 <ul>
-<li><a href=/publication/2026_dac_pharos/>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2026_dac_filco/>FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2024_dac/>Enabling On-Device Self-Supervised LLM Personalization with Selective Synthetic Data (🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2023dac/>High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives (🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2022_dac/>H2H: Heterogeneous Model to Heterogeneous System Mapping with Computation and Communication Awareness</a></li>
+<li><a href=/publication/2017_dac/>Bandwidth Optimization Through On-Chip Memory Restructuring for HLS</a></li>
 </ul>
 </div>
 </div>
