@@ -1,7 +1,7 @@
 ---
 title: "Physical Intelligence on the Edge: A Vision for the Decade Ahead (🔥📣New Paper & Project🔥📣! )"
 publication_types:
-  - "1"
+  - "2"
 authors:
   - Weisong Shi 
   - Zheng Dong
