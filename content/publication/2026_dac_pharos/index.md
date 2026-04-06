@@ -1,5 +1,6 @@
 ---
-title: "FILCO: Flexible Composing Architecture with Real-Time Reconfigurability for DNN Acceleration(🔥📣New Paper & Project🔥📣! )"
+title: "PHAROS: Pipelined Heterogeneous Accelerators for Real-time
+Safety-critical Systems With Deadline Compliance (🔥📣New Paper & Project🔥📣! )"
 publication_types:
   - "1"
 authors:
