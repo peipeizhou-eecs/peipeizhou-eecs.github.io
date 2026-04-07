@@ -13,4 +13,4 @@ superuser: false
 user_groups:
   - Grad Students
 ---
-Shixin Ji joined Prof. Peipei Zhou's lab in 2023 Fall. Shixin's research interests include Heterogeneous Computer Architecture, Software and Hardware Co-design.
+Shixin Ji joined Prof. Peipei Zhou's lab in 2023 Fall. Shixin's research interests include Heterogeneous Computer Architecture, Software and Hardware Co-Design.
