@@ -23,7 +23,7 @@ draft: false
 featured: true
 links:
 - name: arXiv
-  url: https://arxiv.org/pdf/2604.07523
+  url: https://arxiv.org/abs/2604.07523 
 #- name: PDF
 #  url: https://dl.acm.org/doi/10.1145/3712285.3759778 
 #- name: Code
