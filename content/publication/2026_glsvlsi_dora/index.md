@@ -29,8 +29,8 @@ links:
   url: https://dl.acm.org/doi/10.1145/3787109.3815288 
 #- name: Code
 #  url: https://github.com/arc-research-lab/AGILE
-#- name: Slides
-#  url: "20251119_SC25_AGILE_Final_ShareVersion.pdf"
+- name: Slides
+  url: "20260712_GLSVLSI26_DORA_Final_ShareVersion.pdf"
 #- icon: youtube
 #  icon_pack: fab
 #  name: Video
