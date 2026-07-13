@@ -5,12 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Peipei Zhou">
-<meta name=description content="As deep neural networks develop significantly more diverse andcomplex, achieving high performance and efficiency on complicatedDNN models faces pressing challenges. Modern DNN workloadsare increasingly diverse in operation types, tensor shapes, andexecution dependencies, making it difficult to sustain high hardwareefficiency across models. In addition, a generic accelerator oftenincurs substantial overhead when executing diverse workloads.
-
-To address these problems, we propose DORA, an instruction-based overlay architecture that explicitly describes dataflow viaa proposed ISA, enabling fine-grained control of data movement,computation, and synchronization at the layer level. To supportflexibility while achieving high performance, DORA adopts a novelon-chip memory management and computation parallelism man-agement mechanism. DORA proposes a compilation frameworkthat can generate instructions for given DNN workloads after atwo-stage design space exploration. DORA framework also incorpo-rates a MILP-based and a heuristic-based search engine to generatethe schedule solution for different needs and constraints.
-
-We prototype DORA on the AMD Versal VCK190 platform,demonstrating its deployability on existing reconfigurable systems.Experimental results show that DORA maintains stable efficiency,with less than 5% variation on a single vector processor acrossworkloads exhibiting up to 6× variation in operation counts. Com-pared to state-of-the-art accelerators, DORA consistently achieveshigher performance, delivering up to 5× throughput improvement.The heuristic-based scheduler further achieves up to 90% opti-mality under practical time constraints. DORA is open-sourcedat https://github.com/arc-research-lab/DORA.git.">
-<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/>
+<meta name=description content="Heterogeneous reconfigurable platforms with tensor cores, suchas AMD ACAP, are increasingly adopted for deep neural network(DNN) inference due to their high throughput and flexibility. How-ever, their suitability for microsecond-scale inference on small prob-lem sizes remains underexplored. In jet-tagging applications inhigh-energy physics, inefficient on-chip communication and largeinter-layer latency prevent existing frameworks from meeting the1-𝜇s latency budget. Moreover, hardware overheads such as syn-chronization and VLIW processor prologue are often overlooked,making it infeasible to optimize accelerators correctly. To addressthese problems, we propose µ-ORCA, a customized heterogeneousaccelerator framework for ultra-low-latency model inference. µ-ORCA enables direct inter-layer communication between DNN lay-ers on the AIE array, instead of using shared memory tiles or FPGAfabric. Moreover, a 512-bit/cycle cascade connection is applied in-stead of a 32-bit/cycle DMA connection. µ-ORCA also provides anoverhead-aware performance model that adapts to different NNlayer sizes, and conducts design space exploration to optimize end-to-end latency. µ-ORCA supports MLP and DeepSets models withnon-MM kernels, including bias, ReLU, and global aggregation onAIE. We evaluate µ-ORCA on the AMD ACAP VEK280 platform.Experimental results show that µ-ORCA achieves average latencyreduction of >1.70× and >1.83× compared with different state-of-the-art ACAP frameworks, and achieves 0.93 𝜇s latency for a 6-layerreal-world DeepSets model, satisfying the latency budget. We opensource µ-ORCA at https://github.com/arc-research-lab/u-ORCA.">
+<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -24,23 +20,19 @@ We prototype DORA on the AMD Versal VCK190 platform,demonstrating its deployabil
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/>
+<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Peipei Zhou's Homepage">
-<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/">
-<meta property="og:title" content="DORA: Dataflow-Instruction Orchestration Architecture for DNN Acceleration (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage">
-<meta property="og:description" content="As deep neural networks develop significantly more diverse andcomplex, achieving high performance and efficiency on complicatedDNN models faces pressing challenges. Modern DNN workloadsare increasingly diverse in operation types, tensor shapes, andexecution dependencies, making it difficult to sustain high hardwareefficiency across models. In addition, a generic accelerator oftenincurs substantial overhead when executing diverse workloads.
-
-To address these problems, we propose DORA, an instruction-based overlay architecture that explicitly describes dataflow viaa proposed ISA, enabling fine-grained control of data movement,computation, and synchronization at the layer level. To supportflexibility while achieving high performance, DORA adopts a novelon-chip memory management and computation parallelism man-agement mechanism. DORA proposes a compilation frameworkthat can generate instructions for given DNN workloads after atwo-stage design space exploration. DORA framework also incorpo-rates a MILP-based and a heuristic-based search engine to generatethe schedule solution for different needs and constraints.
-
-We prototype DORA on the AMD Versal VCK190 platform,demonstrating its deployability on existing reconfigurable systems.Experimental results show that DORA maintains stable efficiency,with less than 5% variation on a single vector processor acrossworkloads exhibiting up to 6× variation in operation counts. Com-pared to state-of-the-art accelerators, DORA consistently achieveshigher performance, delivering up to 5× throughput improvement.The heuristic-based scheduler further achieves up to 90% opti-mality under practical time constraints. DORA is open-sourcedat https://github.com/arc-research-lab/DORA.git."><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/">
+<meta property="og:title" content="μ-ORCA: Optimizing Acceleration for Microsecond-Scale Deep Neural Network Inference on ACAP (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage">
+<meta property="og:description" content="Heterogeneous reconfigurable platforms with tensor cores, suchas AMD ACAP, are increasingly adopted for deep neural network(DNN) inference due to their high throughput and flexibility. How-ever, their suitability for microsecond-scale inference on small prob-lem sizes remains underexplored. In jet-tagging applications inhigh-energy physics, inefficient on-chip communication and largeinter-layer latency prevent existing frameworks from meeting the1-𝜇s latency budget. Moreover, hardware overheads such as syn-chronization and VLIW processor prologue are often overlooked,making it infeasible to optimize accelerators correctly. To addressthese problems, we propose µ-ORCA, a customized heterogeneousaccelerator framework for ultra-low-latency model inference. µ-ORCA enables direct inter-layer communication between DNN lay-ers on the AIE array, instead of using shared memory tiles or FPGAfabric. Moreover, a 512-bit/cycle cascade connection is applied in-stead of a 32-bit/cycle DMA connection. µ-ORCA also provides anoverhead-aware performance model that adapts to different NNlayer sizes, and conducts design space exploration to optimize end-to-end latency. µ-ORCA supports MLP and DeepSets models withnon-MM kernels, including bias, ReLU, and global aggregation onAIE. We evaluate µ-ORCA on the AMD ACAP VEK280 platform.Experimental results show that µ-ORCA achieves average latencyreduction of >1.70× and >1.83× compared with different state-of-the-art ACAP frameworks, and achieves 0.93 𝜇s latency for a 6-layerreal-world DeepSets model, satisfying the latency budget. We opensource µ-ORCA at https://github.com/arc-research-lab/u-ORCA."><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2026-06-22T00:53:11+00:00">
 <meta property="article:modified_time" content="2026-06-22T00:53:11+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/"},"headline":"DORA: Dataflow-Instruction Orchestration Architecture for DNN Acceleration (🔥📣New Paper \u0026 Project🔥📣! )","datePublished":"2026-06-22T00:53:11Z","dateModified":"2026-06-22T00:53:11Z","author":{"@type":"Person","name":"Xingzhen Chen"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"As deep neural networks develop significantly more diverse andcomplex, achieving high performance and efficiency on complicatedDNN models faces pressing challenges. Modern DNN workloadsare increasingly diverse in operation types, tensor shapes, andexecution dependencies, making it difficult to sustain high hardwareefficiency across models. In addition, a generic accelerator oftenincurs substantial overhead when executing diverse workloads.\n\nTo address these problems, we propose DORA, an instruction-based overlay architecture that explicitly describes dataflow viaa proposed ISA, enabling fine-grained control of data movement,computation, and synchronization at the layer level. To supportflexibility while achieving high performance, DORA adopts a novelon-chip memory management and computation parallelism man-agement mechanism. DORA proposes a compilation frameworkthat can generate instructions for given DNN workloads after atwo-stage design space exploration. DORA framework also incorpo-rates a MILP-based and a heuristic-based search engine to generatethe schedule solution for different needs and constraints.\n\nWe prototype DORA on the AMD Versal VCK190 platform,demonstrating its deployability on existing reconfigurable systems.Experimental results show that DORA maintains stable efficiency,with less than 5% variation on a single vector processor acrossworkloads exhibiting up to 6× variation in operation counts. Com-pared to state-of-the-art accelerators, DORA consistently achieveshigher performance, delivering up to 5× throughput improvement.The heuristic-based scheduler further achieves up to 90% opti-mality under practical time constraints. DORA is open-sourcedat https://github.com/arc-research-lab/DORA.git."}</script>
-<title>DORA: Dataflow-Instruction Orchestration Architecture for DNN Acceleration (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage</title>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/"},"headline":"μ-ORCA: Optimizing Acceleration for Microsecond-Scale Deep Neural Network Inference on ACAP (🔥📣New Paper \u0026 Project🔥📣! )","datePublished":"2026-06-22T00:53:11Z","dateModified":"2026-06-22T00:53:11Z","author":{"@type":"Person","name":"Shixin Ji"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"Heterogeneous reconfigurable platforms with tensor cores, suchas AMD ACAP, are increasingly adopted for deep neural network(DNN) inference due to their high throughput and flexibility. How-ever, their suitability for microsecond-scale inference on small prob-lem sizes remains underexplored. In jet-tagging applications inhigh-energy physics, inefficient on-chip communication and largeinter-layer latency prevent existing frameworks from meeting the1-𝜇s latency budget. Moreover, hardware overheads such as syn-chronization and VLIW processor prologue are often overlooked,making it infeasible to optimize accelerators correctly. To addressthese problems, we propose µ-ORCA, a customized heterogeneousaccelerator framework for ultra-low-latency model inference. µ-ORCA enables direct inter-layer communication between DNN lay-ers on the AIE array, instead of using shared memory tiles or FPGAfabric. Moreover, a 512-bit/cycle cascade connection is applied in-stead of a 32-bit/cycle DMA connection. µ-ORCA also provides anoverhead-aware performance model that adapts to different NNlayer sizes, and conducts design space exploration to optimize end-to-end latency. µ-ORCA supports MLP and DeepSets models withnon-MM kernels, including bias, ReLU, and global aggregation onAIE. We evaluate µ-ORCA on the AMD ACAP VEK280 platform.Experimental results show that µ-ORCA achieves average latencyreduction of \u003e1.70× and \u003e1.83× compared with different state-of-the-art ACAP frameworks, and achieves 0.93 𝜇s latency for a 6-layerreal-world DeepSets model, satisfying the latency budget. We opensource µ-ORCA at https://github.com/arc-research-lab/u-ORCA."}</script>
+<title>μ-ORCA: Optimizing Acceleration for Microsecond-Scale Deep Neural Network Inference on ACAP (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=abe5da88de8a5368cbf8007849d6a8c7>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=38f78c8b7b6a358ec2fc4ae944eafd2c>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -136,17 +128,15 @@ We prototype DORA on the AMD Versal VCK190 platform,demonstrating its deployabil
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>DORA: Dataflow-Instruction Orchestration Architecture for DNN Acceleration (🔥📣New Paper & Project🔥📣! )</h1>
+<h1>μ-ORCA: Optimizing Acceleration for Microsecond-Scale Deep Neural Network Inference on ACAP (🔥📣New Paper & Project🔥📣! )</h1>
 <div class=article-metadata>
 <div>
 <span>
-<a href=/author/xingzhen-chen/>Xingzhen Chen</a></span>, <span>
-<a href=/author/zhuoping-yang/>Zhuoping Yang</a></span>, <span>
-<a href=/author/jinming-zhuang/>Jinming Zhuang</a></span>, <span>
 <a href=/author/shixin-ji/>Shixin Ji</a></span>, <span>
-<a href=/author/sarah-schultz/>Sarah Schultz</a></span>, <span>
-<a href=/author/zheng-dong/>Zheng Dong</a></span>, <span>
-<a href=/author/weisong-shi/>Weisong Shi</a></span>, <span class=author-highlighted>
+<a href=/author/jinming-zhuang/>Jinming Zhuang</a></span>, <span>
+<a href=/author/zhuoping-yang/>Zhuoping Yang</a></span>, <span>
+<a href=/author/xingzhen-chen/>Xingzhen Chen</a></span>, <span>
+<a href=/author/wei-zhang/>Wei Zhang</a></span>, <span class=author-highlighted>
 <a href=/author/peipei-zhou/>Peipei Zhou</a></span>
 </div>
 <span class=article-date>
@@ -154,16 +144,13 @@ June 2026
 </span>
 </div>
 <div class="btn-links mb-3">
-<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/2026_glsvlsi_dora/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://dl.acm.org/doi/10.1145/3787109.3815288 target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://dl.acm.org/doi/10.1145/3787109.3815309 target=_blank rel=noopener>
 PDF
 </a>
-<a class="btn btn-outline-primary btn-page-header" href=/publication/2026_glsvlsi_dora/20260712_GLSVLSI26_DORA_Final_ShareVersion.pdf>
+<a class="btn btn-outline-primary btn-page-header" href=/publication/2026_glsvlsi_uorca/20260712_GLSVLSI26_uORCA_Final_ShareVersion.pdf>
 Slides
 </a>
-<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=wrcZtr8GoyY" target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://youtu.be/kenDH_976ng target=_blank rel=noopener>
 <i class="fab fa-youtube mr-1"></i>
 Video
 </a>
@@ -171,10 +158,7 @@ Video
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract><p>As deep neural networks develop significantly more diverse andcomplex, achieving high performance and efficiency on complicatedDNN models faces pressing challenges. Modern DNN workloadsare increasingly diverse in operation types, tensor shapes, andexecution dependencies, making it difficult to sustain high hardwareefficiency across models. In addition, a generic accelerator oftenincurs substantial overhead when executing diverse workloads.</p>
-<p>To address these problems, we propose DORA, an instruction-based overlay architecture that explicitly describes dataflow viaa proposed ISA, enabling fine-grained control of data movement,computation, and synchronization at the layer level. To supportflexibility while achieving high performance, DORA adopts a novelon-chip memory management and computation parallelism man-agement mechanism. DORA proposes a compilation frameworkthat can generate instructions for given DNN workloads after atwo-stage design space exploration. DORA framework also incorpo-rates a MILP-based and a heuristic-based search engine to generatethe schedule solution for different needs and constraints.</p>
-<p>We prototype DORA on the AMD Versal VCK190 platform,demonstrating its deployability on existing reconfigurable systems.Experimental results show that DORA maintains stable efficiency,with less than 5% variation on a single vector processor acrossworkloads exhibiting up to 6× variation in operation counts. Com-pared to state-of-the-art accelerators, DORA consistently achieveshigher performance, delivering up to 5× throughput improvement.The heuristic-based scheduler further achieves up to 90% opti-mality under practical time constraints. DORA is open-sourcedat <a href=https://github.com/arc-research-lab/DORA.git>https://github.com/arc-research-lab/DORA.git</a>.</p>
-</p>
+<p class=pub-abstract>Heterogeneous reconfigurable platforms with tensor cores, suchas AMD ACAP, are increasingly adopted for deep neural network(DNN) inference due to their high throughput and flexibility. How-ever, their suitability for microsecond-scale inference on small prob-lem sizes remains underexplored. In jet-tagging applications inhigh-energy physics, inefficient on-chip communication and largeinter-layer latency prevent existing frameworks from meeting the1-𝜇s latency budget. Moreover, hardware overheads such as syn-chronization and VLIW processor prologue are often overlooked,making it infeasible to optimize accelerators correctly. To addressthese problems, we propose µ-ORCA, a customized heterogeneousaccelerator framework for ultra-low-latency model inference. µ-ORCA enables direct inter-layer communication between DNN lay-ers on the AIE array, instead of using shared memory tiles or FPGAfabric. Moreover, a 512-bit/cycle cascade connection is applied in-stead of a 32-bit/cycle DMA connection. µ-ORCA also provides anoverhead-aware performance model that adapts to different NNlayer sizes, and conducts design space exploration to optimize end-to-end latency. µ-ORCA supports MLP and DeepSets models withnon-MM kernels, including bias, ReLU, and global aggregation onAIE. We evaluate µ-ORCA on the AMD ACAP VEK280 platform.Experimental results show that µ-ORCA achieves average latencyreduction of >1.70× and >1.83× compared with different state-of-the-art ACAP frameworks, and achieves 0.93 𝜇s latency for a 6-layerreal-world DeepSets model, satisfying the latency budget. We opensource µ-ORCA at <a href=https://github.com/arc-research-lab/u-ORCA>https://github.com/arc-research-lab/u-ORCA</a>.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
@@ -209,32 +193,32 @@ Conference paper
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/&text=DORA:%20Dataflow-Instruction%20Orchestration%20Architecture%20for%20DNN%20Acceleration%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/&text=%ce%bc-ORCA:%20Optimizing%20Acceleration%20for%20Microsecond-Scale%20Deep%20Neural%20Network%20Inference%20on%20ACAP%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/&t=DORA:%20Dataflow-Instruction%20Orchestration%20Architecture%20for%20DNN%20Acceleration%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/&t=%ce%bc-ORCA:%20Optimizing%20Acceleration%20for%20Microsecond-Scale%20Deep%20Neural%20Network%20Inference%20on%20ACAP%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=DORA:%20Dataflow-Instruction%20Orchestration%20Architecture%20for%20DNN%20Acceleration%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29&body=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=%ce%bc-ORCA:%20Optimizing%20Acceleration%20for%20Microsecond-Scale%20Deep%20Neural%20Network%20Inference%20on%20ACAP%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29&body=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/&title=DORA:%20Dataflow-Instruction%20Orchestration%20Architecture%20for%20DNN%20Acceleration%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/&title=%ce%bc-ORCA:%20Optimizing%20Acceleration%20for%20Microsecond-Scale%20Deep%20Neural%20Network%20Inference%20on%20ACAP%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=DORA:%20Dataflow-Instruction%20Orchestration%20Architecture%20for%20DNN%20Acceleration%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29%20https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=%ce%bc-ORCA:%20Optimizing%20Acceleration%20for%20Microsecond-Scale%20Deep%20Neural%20Network%20Inference%20on%20ACAP%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29%20https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_dora/&title=DORA:%20Dataflow-Instruction%20Orchestration%20Architecture%20for%20DNN%20Acceleration%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2026_glsvlsi_uorca/&title=%ce%bc-ORCA:%20Optimizing%20Acceleration%20for%20Microsecond-Scale%20Deep%20Neural%20Network%20Inference%20on%20ACAP%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
@@ -242,15 +226,7 @@ Conference paper
 </div>
 <div class="media author-card content-widget-hr">
 <div class=media-body>
-<h5 class=card-title><a href=/author/xingzhen-chen/>Xingzhen Chen</a></h5>
-<h6 class=card-subtitle>PhD Graduate Student</h6>
-<ul class=network-icon aria-hidden=true>
-</ul>
-</div>
-</div>
-<div class="media author-card content-widget-hr">
-<div class=media-body>
-<h5 class=card-title><a href=/author/zhuoping-yang/>Zhuoping Yang</a></h5>
+<h5 class=card-title><a href=/author/shixin-ji/>Shixin Ji</a></h5>
 <h6 class=card-subtitle>PhD Graduate Student</h6>
 <ul class=network-icon aria-hidden=true>
 </ul>
@@ -266,7 +242,7 @@ Conference paper
 </div>
 <div class="media author-card content-widget-hr">
 <div class=media-body>
-<h5 class=card-title><a href=/author/shixin-ji/>Shixin Ji</a></h5>
+<h5 class=card-title><a href=/author/zhuoping-yang/>Zhuoping Yang</a></h5>
 <h6 class=card-subtitle>PhD Graduate Student</h6>
 <ul class=network-icon aria-hidden=true>
 </ul>
@@ -274,7 +250,15 @@ Conference paper
 </div>
 <div class="media author-card content-widget-hr">
 <div class=media-body>
-<h5 class=card-title><a href=/author/sarah-schultz/>Sarah Schultz</a></h5>
+<h5 class=card-title><a href=/author/xingzhen-chen/>Xingzhen Chen</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/wei-zhang/>Wei Zhang</a></h5>
 <h6 class=card-subtitle>PhD Graduate Student</h6>
 <ul class=network-icon aria-hidden=true>
 </ul>
@@ -313,7 +297,7 @@ Conference paper
 <div class="article-widget content-widget-hr">
 <h3>Related</h3>
 <ul>
-<li><a href=/publication/2026_glsvlsi_uorca/>μ-ORCA: Optimizing Acceleration for Microsecond-Scale Deep Neural Network Inference on ACAP (🔥📣New Paper & Project🔥📣! )</a></li>
+<li><a href=/publication/2026_glsvlsi_dora/>DORA: Dataflow-Instruction Orchestration Architecture for DNN Acceleration (🔥📣New Paper & Project🔥📣! )</a></li>
 <li><a href=/publication/2025_glsvlsi_art/>ART: Customizing Accelerators for DNN-Enabled Real-Time Safety-Critical Systems(🔥📣New Paper & Project🔥📣! )</a></li>
 </ul>
 </div>
