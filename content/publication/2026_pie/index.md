@@ -19,6 +19,10 @@ links:
 #  url: https://dl.acm.org/doi/pdf/10.1145/3716368.3735215 
 - name: Springer
   url: https://rdcu.be/e7m2b  
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://www.youtube.com/watch?v=4SBZS7crJm8
 tags:
   - JCST
 image:
