@@ -1,5 +1,5 @@
 ---
-title: "Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣IGSC 2026 Best Paper Award🔥📣! )"
+title: "Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣🏆IGSC 2026 Best Paper Award🔥📣🏆! )"
 publication_types:
   - "1"
 authors:
@@ -24,10 +24,10 @@ links:
 #  url: https://github.com/arc-research-lab/AGILE
 - name: Slides
   url: "20260712_IGSC26_BestPaperAward_Final_ShareVersion.pdf"
-#- icon: youtube
-#  icon_pack: fab
-#  name: Video
-#  url: https://youtu.be/kenDH_976ng 
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://youtu.be/P7PLsBpphg0 
 tags:
   - IGSC 
 image:
