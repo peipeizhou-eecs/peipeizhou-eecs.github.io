@@ -4,7 +4,7 @@ date: 2026-06-25T06:20:14.522Z
 draft: false
 ---
 
-Dr. Peipei Zhou has been selected to participate in the 2026 National Academy of Engineering (NAE) Grainger Foundation Frontiers of Engineering Symposium.
+📣 📣 📣 🎉 Dr. Peipei Zhou has been selected to participate in the 2026 National Academy of Engineering (NAE) Grainger Foundation Frontiers of Engineering Symposium.
 
 The Grainger Foundation Frontiers of Engineering Symposium is a signature program of the National Academy of Engineering that brings together 74 highly accomplished early-career engineers who are performing exceptional research and technical work across academia, industry, and government. The symposium provides a unique forum for participants to share emerging techniques and approaches, foster interdisciplinary collaborations, and build professional networks among the next generation of engineering leaders.
 

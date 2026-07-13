@@ -4,7 +4,7 @@ date: 2026-06-01T06:20:14.522Z
 draft: false
 ---
 
-📣 📣 📣 Sharing News from Brown Engineering News:
+📣 📣 📣 🎉 Sharing News from Brown Engineering News:
 
 Peipei Zhou, assistant professor of engineering at Brown University, has been awarded a Faculty Early Career Development (CAREER) grant from the National Science Foundation. 
 
