@@ -5,8 +5,9 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Peipei Zhou">
-<meta name=description content="Recent improvements in energy efficiency and renewable energy integration have increased the relative importance of embodied carbon in data centers, motivating improved provisioning strategies. Conventional approaches primarily minimize operational energy, but this perspective is increasingly insufficient for sustainability. In this paper, we propose carbon depreciation models to encourage longer hardware lifetimes. Carbon depreciation assigns a larger portion of embodied carbon to newly provisioned servers, discouraging unnecessary deployment of new hardware. As a result, new servers are provisioned mainly for jobs with strict quality-of-service (QoS) constraints, while older servers, whose embodied carbon has largely been recovered, are used for other workloads. We further argue that both embodied carbon and operational carbon from server idle time should be recovered during active jobs, encouraging provisioning strategies that maintain high utilization. We show that prior carbon accounting strategies can be counterproductive: under a greedy scheduler minimizing carbon under QoS constraints, jobs are priced as 25% cheaper on new hardware than on older hardware. In contrast, our approach uses a greedy scheduler that prioritizes older hardware through non-linear carbon depreciation, promoting sustainable provisioning. Experimental results show carbon reductions of 28–57%, depending on server lifetime assumptions.">
-<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/>
+<meta name=description content="Autonomous Driving Systems (ADS) increasingly rely on diverse deep neural networks to support perception, prediction, planning, and control under strict real-time constraints. FPGA-based heterogeneous computing provides an attractive platform for DNN workloads, but it raises a fundamental deployment question: should the system rely on a flexible overlay architecture, or repeatedly load customized bitstreams optimized for dedicated models, which should be treated as a first-class systems problem rather than a purely architectural one? Overlay-based execution offers fast model switching and better adaptability relying on lightweight instruction or parameter updates, while customized architectures can provide higher model-wise efficiency at the cost of reconfiguration latency and reduced flexibility. However, the boundary between these two design choices remains unclear in realistic ADS scenarios.
+In this work, we present a systematic study of this trade-off from a deployment-centric perspective, focusing on an autonomous driving scenario. Instead of treating overlay and customized acceleration as isolated design points, we analyze when each approach is preferable under practical conditions, including workload variation, architectural design, reconfiguration latency, and switching frequency. Our analysis shows that overlay-based architecture is more suitable for highly frequent model switching under the state-of-the-art architecture. However, as bitstream reload overhead continues to reduce, customized architectures may become increasingly attractive, especially for workloads with efficiency requirements. Conversely, if overlay architectures become more capable and flexible, they may further expand their advantage over customized architectures. These observations provide design insights for future architectural design, and the optimal deployment strategy will be flipped according to the technique development.">
+<link rel=alternate hreflang=en-us href=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -20,19 +21,20 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/>
+<link rel=canonical href=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Peipei Zhou's Homepage">
-<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/">
-<meta property="og:title" content="Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣🏆IGSC 2026 Best Paper Award🔥📣🏆! ) | Peipei Zhou's Homepage">
-<meta property="og:description" content="Recent improvements in energy efficiency and renewable energy integration have increased the relative importance of embodied carbon in data centers, motivating improved provisioning strategies. Conventional approaches primarily minimize operational energy, but this perspective is increasingly insufficient for sustainability. In this paper, we propose carbon depreciation models to encourage longer hardware lifetimes. Carbon depreciation assigns a larger portion of embodied carbon to newly provisioned servers, discouraging unnecessary deployment of new hardware. As a result, new servers are provisioned mainly for jobs with strict quality-of-service (QoS) constraints, while older servers, whose embodied carbon has largely been recovered, are used for other workloads. We further argue that both embodied carbon and operational carbon from server idle time should be recovered during active jobs, encouraging provisioning strategies that maintain high utilization. We show that prior carbon accounting strategies can be counterproductive: under a greedy scheduler minimizing carbon under QoS constraints, jobs are priced as 25% cheaper on new hardware than on older hardware. In contrast, our approach uses a greedy scheduler that prioritizes older hardware through non-linear carbon depreciation, promoting sustainable provisioning. Experimental results show carbon reductions of 28–57%, depending on server lifetime assumptions."><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/">
+<meta property="og:title" content="To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage">
+<meta property="og:description" content="Autonomous Driving Systems (ADS) increasingly rely on diverse deep neural networks to support perception, prediction, planning, and control under strict real-time constraints. FPGA-based heterogeneous computing provides an attractive platform for DNN workloads, but it raises a fundamental deployment question: should the system rely on a flexible overlay architecture, or repeatedly load customized bitstreams optimized for dedicated models, which should be treated as a first-class systems problem rather than a purely architectural one? Overlay-based execution offers fast model switching and better adaptability relying on lightweight instruction or parameter updates, while customized architectures can provide higher model-wise efficiency at the cost of reconfiguration latency and reduced flexibility. However, the boundary between these two design choices remains unclear in realistic ADS scenarios.
+In this work, we present a systematic study of this trade-off from a deployment-centric perspective, focusing on an autonomous driving scenario. Instead of treating overlay and customized acceleration as isolated design points, we analyze when each approach is preferable under practical conditions, including workload variation, architectural design, reconfiguration latency, and switching frequency. Our analysis shows that overlay-based architecture is more suitable for highly frequent model switching under the state-of-the-art architecture. However, as bitstream reload overhead continues to reduce, customized architectures may become increasingly attractive, especially for workloads with efficiency requirements. Conversely, if overlay architectures become more capable and flexible, they may further expand their advantage over customized architectures. These observations provide design insights for future architectural design, and the optimal deployment strategy will be flipped according to the technique development."><meta property="og:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2026-06-22T00:53:11+00:00">
 <meta property="article:modified_time" content="2026-06-22T00:53:11+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/"},"headline":"Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣🏆IGSC 2026 Best Paper Award🔥📣🏆! )","datePublished":"2026-06-22T00:53:11Z","dateModified":"2026-06-22T00:53:11Z","author":{"@type":"Person","name":"Shixin Ji"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"Recent improvements in energy efficiency and renewable energy integration have increased the relative importance of embodied carbon in data centers, motivating improved provisioning strategies. Conventional approaches primarily minimize operational energy, but this perspective is increasingly insufficient for sustainability. In this paper, we propose carbon depreciation models to encourage longer hardware lifetimes. Carbon depreciation assigns a larger portion of embodied carbon to newly provisioned servers, discouraging unnecessary deployment of new hardware. As a result, new servers are provisioned mainly for jobs with strict quality-of-service (QoS) constraints, while older servers, whose embodied carbon has largely been recovered, are used for other workloads. We further argue that both embodied carbon and operational carbon from server idle time should be recovered during active jobs, encouraging provisioning strategies that maintain high utilization. We show that prior carbon accounting strategies can be counterproductive: under a greedy scheduler minimizing carbon under QoS constraints, jobs are priced as 25% cheaper on new hardware than on older hardware. In contrast, our approach uses a greedy scheduler that prioritizes older hardware through non-linear carbon depreciation, promoting sustainable provisioning. Experimental results show carbon reductions of 28–57%, depending on server lifetime assumptions."}</script>
-<title>Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣🏆IGSC 2026 Best Paper Award🔥📣🏆! ) | Peipei Zhou's Homepage</title>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/"},"headline":"To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems (🔥📣New Paper \u0026 Project🔥📣! )","datePublished":"2026-06-22T00:53:11Z","dateModified":"2026-06-22T00:53:11Z","author":{"@type":"Person","name":"Xingzhen Chen"},"publisher":{"@type":"Organization","name":"Peipei Zhou's Homepage","logo":{"@type":"ImageObject","url":"https://peipeizhou-eecs.github.io/media/icon_hu1250aaa54d869e747b2648a1402f0494_97654_192x192_fill_lanczos_center_3.png"}},"description":"Autonomous Driving Systems (ADS) increasingly rely on diverse deep neural networks to support perception, prediction, planning, and control under strict real-time constraints. FPGA-based heterogeneous computing provides an attractive platform for DNN workloads, but it raises a fundamental deployment question: should the system rely on a flexible overlay architecture, or repeatedly load customized bitstreams optimized for dedicated models, which should be treated as a first-class systems problem rather than a purely architectural one? Overlay-based execution offers fast model switching and better adaptability relying on lightweight instruction or parameter updates, while customized architectures can provide higher model-wise efficiency at the cost of reconfiguration latency and reduced flexibility. However, the boundary between these two design choices remains unclear in realistic ADS scenarios.\nIn this work, we present a systematic study of this trade-off from a deployment-centric perspective, focusing on an autonomous driving scenario. Instead of treating overlay and customized acceleration as isolated design points, we analyze when each approach is preferable under practical conditions, including workload variation, architectural design, reconfiguration latency, and switching frequency. Our analysis shows that overlay-based architecture is more suitable for highly frequent model switching under the state-of-the-art architecture. However, as bitstream reload overhead continues to reduce, customized architectures may become increasingly attractive, especially for workloads with efficiency requirements. Conversely, if overlay architectures become more capable and flexible, they may further expand their advantage over customized architectures. These observations provide design insights for future architectural design, and the optimal deployment strategy will be flipped according to the technique development."}</script>
+<title>To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems (🔥📣New Paper & Project🔥📣! ) | Peipei Zhou's Homepage</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=8d9f37404ecd10c72f96e761cc597d36>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=da18574140d5d2a4b3d9d9221fd70d77>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -128,14 +130,13 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣🏆IGSC 2026 Best Paper Award🔥📣🏆! )</h1>
+<h1>To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems (🔥📣New Paper & Project🔥📣! )</h1>
 <div class=article-metadata>
 <div>
 <span>
-<a href=/author/shixin-ji/>Shixin Ji</a></span>, <span>
-<a href=/author/zhuoping-yang/>Zhuoping Yang</a></span>, <span>
 <a href=/author/xingzhen-chen/>Xingzhen Chen</a></span>, <span>
-<a href=/author/alex-jones/>Alex Jones</a></span>, <span class=author-highlighted>
+<a href=/author/shixin-ji/>Shixin Ji</a></span>, <span>
+<a href=/author/zheng-dong/>Zheng Dong</a></span>, <span class=author-highlighted>
 <a href=/author/peipei-zhou/>Peipei Zhou</a></span>
 </div>
 <span class=article-date>
@@ -143,24 +144,18 @@ June 2026
 </span>
 </div>
 <div class="btn-links mb-3">
-<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/2026_igsc_bpa/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://dl.acm.org/doi/10.1145/3797248.3815412 target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://dl.acm.org/doi/10.1145/3797248.3816189 target=_blank rel=noopener>
 PDF
 </a>
-<a class="btn btn-outline-primary btn-page-header" href=/publication/2026_igsc_bpa/20260712_IGSC26_BestPaperAward_Final_ShareVersion.pdf>
+<a class="btn btn-outline-primary btn-page-header" href=/publication/2026_igsc_ss/20260712_IGSC26_Overlay_Final_ShareVersion.pdf>
 Slides
-</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://youtu.be/P7PLsBpphg0 target=_blank rel=noopener>
-<i class="fab fa-youtube mr-1"></i>
-Video
 </a>
 </div>
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract>Recent improvements in energy efficiency and renewable energy integration have increased the relative importance of embodied carbon in data centers, motivating improved provisioning strategies. Conventional approaches primarily minimize operational energy, but this perspective is increasingly insufficient for sustainability. In this paper, we propose carbon depreciation models to encourage longer hardware lifetimes. Carbon depreciation assigns a larger portion of embodied carbon to newly provisioned servers, discouraging unnecessary deployment of new hardware. As a result, new servers are provisioned mainly for jobs with strict quality-of-service (QoS) constraints, while older servers, whose embodied carbon has largely been recovered, are used for other workloads. We further argue that both embodied carbon and operational carbon from server idle time should be recovered during active jobs, encouraging provisioning strategies that maintain high utilization. We show that prior carbon accounting strategies can be counterproductive: under a greedy scheduler minimizing carbon under QoS constraints, jobs are priced as 25% cheaper on new hardware than on older hardware. In contrast, our approach uses a greedy scheduler that prioritizes older hardware through non-linear carbon depreciation, promoting sustainable provisioning. Experimental results show carbon reductions of 28–57%, depending on server lifetime assumptions.</p>
+<p class=pub-abstract>Autonomous Driving Systems (ADS) increasingly rely on diverse deep neural networks to support perception, prediction, planning, and control under strict real-time constraints. FPGA-based heterogeneous computing provides an attractive platform for DNN workloads, but it raises a fundamental deployment question: should the system rely on a flexible overlay architecture, or repeatedly load customized bitstreams optimized for dedicated models, which should be treated as a first-class systems problem rather than a purely architectural one? Overlay-based execution offers fast model switching and better adaptability relying on lightweight instruction or parameter updates, while customized architectures can provide higher model-wise efficiency at the cost of reconfiguration latency and reduced flexibility. However, the boundary between these two design choices remains unclear in realistic ADS scenarios.
+In this work, we present a systematic study of this trade-off from a deployment-centric perspective, focusing on an autonomous driving scenario. Instead of treating overlay and customized acceleration as isolated design points, we analyze when each approach is preferable under practical conditions, including workload variation, architectural design, reconfiguration latency, and switching frequency. Our analysis shows that overlay-based architecture is more suitable for highly frequent model switching under the state-of-the-art architecture. However, as bitstream reload overhead continues to reduce, customized architectures may become increasingly attractive, especially for workloads with efficiency requirements. Conversely, if overlay architectures become more capable and flexible, they may further expand their advantage over customized architectures. These observations provide design insights for future architectural design, and the optimal deployment strategy will be flipped according to the technique development.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
@@ -195,32 +190,32 @@ Conference paper
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/&text=Advancing%20Environmental%20Sustainability%20in%20Data%20Centers%20via%20Carbon%20Depreciation%20Models%20%28%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86IGSC%202026%20Best%20Paper%20Award%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86!%20%29" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/&text=To%20Overlay%20or%20to%20Customize?%20Revisiting%20Architectural%20Choices%20in%20Heterogeneous%20Systems%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/&t=Advancing%20Environmental%20Sustainability%20in%20Data%20Centers%20via%20Carbon%20Depreciation%20Models%20%28%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86IGSC%202026%20Best%20Paper%20Award%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86!%20%29" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/&t=To%20Overlay%20or%20to%20Customize?%20Revisiting%20Architectural%20Choices%20in%20Heterogeneous%20Systems%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Advancing%20Environmental%20Sustainability%20in%20Data%20Centers%20via%20Carbon%20Depreciation%20Models%20%28%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86IGSC%202026%20Best%20Paper%20Award%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86!%20%29&body=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=To%20Overlay%20or%20to%20Customize?%20Revisiting%20Architectural%20Choices%20in%20Heterogeneous%20Systems%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29&body=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/&title=Advancing%20Environmental%20Sustainability%20in%20Data%20Centers%20via%20Carbon%20Depreciation%20Models%20%28%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86IGSC%202026%20Best%20Paper%20Award%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/&title=To%20Overlay%20or%20to%20Customize?%20Revisiting%20Architectural%20Choices%20in%20Heterogeneous%20Systems%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Advancing%20Environmental%20Sustainability%20in%20Data%20Centers%20via%20Carbon%20Depreciation%20Models%20%28%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86IGSC%202026%20Best%20Paper%20Award%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86!%20%29%20https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=To%20Overlay%20or%20to%20Customize?%20Revisiting%20Architectural%20Choices%20in%20Heterogeneous%20Systems%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29%20https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/&title=Advancing%20Environmental%20Sustainability%20in%20Data%20Centers%20via%20Carbon%20Depreciation%20Models%20%28%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86IGSC%202026%20Best%20Paper%20Award%f0%9f%94%a5%f0%9f%93%a3%f0%9f%8f%86!%20%29" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/&title=To%20Overlay%20or%20to%20Customize?%20Revisiting%20Architectural%20Choices%20in%20Heterogeneous%20Systems%20%28%f0%9f%94%a5%f0%9f%93%a3New%20Paper%20&amp;amp;%20Project%f0%9f%94%a5%f0%9f%93%a3!%20%29" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
@@ -228,23 +223,15 @@ Conference paper
 </div>
 <div class="media author-card content-widget-hr">
 <div class=media-body>
-<h5 class=card-title><a href=/author/shixin-ji/>Shixin Ji</a></h5>
-<h6 class=card-subtitle>PhD Graduate Student</h6>
-<ul class=network-icon aria-hidden=true>
-</ul>
-</div>
-</div>
-<div class="media author-card content-widget-hr">
-<div class=media-body>
-<h5 class=card-title><a href=/author/zhuoping-yang/>Zhuoping Yang</a></h5>
-<h6 class=card-subtitle>PhD Graduate Student</h6>
-<ul class=network-icon aria-hidden=true>
-</ul>
-</div>
-</div>
-<div class="media author-card content-widget-hr">
-<div class=media-body>
 <h5 class=card-title><a href=/author/xingzhen-chen/>Xingzhen Chen</a></h5>
+<h6 class=card-subtitle>PhD Graduate Student</h6>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="media author-card content-widget-hr">
+<div class=media-body>
+<h5 class=card-title><a href=/author/shixin-ji/>Shixin Ji</a></h5>
 <h6 class=card-subtitle>PhD Graduate Student</h6>
 <ul class=network-icon aria-hidden=true>
 </ul>
@@ -283,7 +270,7 @@ Conference paper
 <div class="article-widget content-widget-hr">
 <h3>Related</h3>
 <ul>
-<li><a href=/publication/2026_igsc_ss/>To Overlay or to Customize? Revisiting Architectural Choices in Heterogeneous Systems (🔥📣New Paper & Project🔥📣! )</a></li>
+<li><a href=/publication/2026_igsc_bpa/>Advancing Environmental Sustainability in Data Centers via Carbon Depreciation Models (🔥📣🏆IGSC 2026 Best Paper Award🔥📣🏆! )</a></li>
 <li><a href=/publication/2024_igsc_ecofpga/>Amortizing Embodied Carbon Across Generations (🔥📣Best Viewpoint Paper in IGSC 2024🔥📣! )</a></li>
 </ul>
 </div>
