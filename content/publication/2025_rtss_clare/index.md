@@ -34,6 +34,10 @@ links:
   url: "20251205_DERCA_IEEE_RTSS_2025_ShareVersion.pdf"
 - name: IEEE
   url: https://doi.org/10.1109/RTSS66672.2025.00039
+- icon: youtube
+  icon_pack: fab
+  name: Video
+  url: https://youtu.be/kenDH_976ng 
 tags:
   - RTSS 
 image:

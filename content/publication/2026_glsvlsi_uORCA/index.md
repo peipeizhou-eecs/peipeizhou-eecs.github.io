@@ -25,10 +25,10 @@ links:
 #  url: https://github.com/arc-research-lab/AGILE
 - name: Slides
   url: "20260712_GLSVLSI26_uORCA_Final_ShareVersion.pdf"
-- icon: youtube
-  icon_pack: fab
-  name: Video
-  url: https://youtu.be/kenDH_976ng 
+#- icon: youtube
+#  icon_pack: fab
+#  name: Video
+#  url: https://youtu.be/kenDH_976ng 
 tags:
   - GLSVLSI 
 image:
