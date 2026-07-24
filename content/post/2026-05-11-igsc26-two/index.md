@@ -8,8 +8,8 @@ draft: false
 
 More information:
 
-👉 [IGSC 2026 best paper award🏆](https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/)  
-👉 [IGSC 2026 overlay](https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/)  
+👉 [IGSC 2026 Carbon Depreciation Model, later selected for the Best Paper Award🏆](https://peipeizhou-eecs.github.io/publication/2026_igsc_bpa/)  
+👉 [IGSC 2026 Overlay vs. Customization?](https://peipeizhou-eecs.github.io/publication/2026_igsc_ss/)  
 
 
 Congratulations to the Team!

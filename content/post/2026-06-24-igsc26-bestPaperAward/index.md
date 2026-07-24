@@ -1,5 +1,5 @@
 ---
-title: 2026/06/24 Best Paper Award at ACM IGSC 2025!
+title: 2026/06/24 Best Paper Award at ACM IGSC 2026!
 date: 2026-06-24T06:20:14.522Z
 draft: false
 ---
