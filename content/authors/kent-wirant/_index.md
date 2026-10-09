@@ -1,6 +1,6 @@
 ---
 title: Kent Wirant
-role: Undergraduate Student Researcher
+role: Undergraduate Researcher (2023) | First Placement after Graduation, Ph.D. Student in Electrical and Computer Engineering at Carnegie Mellon University
 avatar_filename: avatar
 social: []
 education:
