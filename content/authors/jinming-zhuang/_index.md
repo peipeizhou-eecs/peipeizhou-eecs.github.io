@@ -1,7 +1,7 @@
 ---
 title: Jinming Zhuang
 weight: 1
-role: PhD Alumni (First Employment: Assistant Professor at Rochester Institute of Technology)
+role: Ph.D. (2026) | Assistant Professor, Rochester Institute of Technolog
 avatar_filename: avatar
 social: []
 education:
