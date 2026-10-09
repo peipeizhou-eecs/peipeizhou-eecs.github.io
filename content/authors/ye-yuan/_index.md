@@ -13,4 +13,4 @@ superuser: false
 user_groups:
   - Grad Students
 ---
-Ye Yuan joined Prof. Peipei Zhou's lab in 2025 Fall. Ye's research interests include Software and Hardware Co-design.
+Ye Yuan joined Prof. Peipei Zhou's lab in 2026 Spring as a BREADTH Scholar. Ye's research interests include digital health technology, software and hardware co-design.
