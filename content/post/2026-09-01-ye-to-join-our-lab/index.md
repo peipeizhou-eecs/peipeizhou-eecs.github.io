@@ -13,4 +13,4 @@ image:
   preview_only: false
 ---
 Welcome Ye! Ye joined the lab in January 2026 as a BREADTH Scholar.\
-Ye graduated with Bachelor of Engineering in Electrical and Computer Engineering, 2025 Hong Kong University of Science and TechnologyScience in 2025. 
+Ye graduated with Bachelor of Engineering in Electrical and Computer Engineering, 2025 Hong Kong University of Science and Technology in 2025. 
