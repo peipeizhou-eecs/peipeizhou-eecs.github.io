@@ -1,6 +1,6 @@
 ---
 title: Sushmit Acharya 
-role: Undergraduate Student Researcher
+role: Undergraduate Researcher (2024) | First Placement after Graduation, Software Engineering @ Concurrent EDA
 avatar_filename: avatar
 social: []
 education:
